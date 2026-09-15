@@ -1,11 +1,14 @@
 # -*- coding: utf-8 -*-
 """Re-encode the textures inside a GLB and rewrite it smaller.
 
-Meshy ships each model with a large baked texture, which is where nearly all of
-the 4-7 MB per file lives - the geometry is trivial by comparison. Downscaling
-those to 512px JPEG costs almost nothing visually on a stylised cel asset (the
-source art is flat colour and hard edges) and takes the set from ~44 MB to
-something a web page can actually open.
+Meshy ships each model with a large baked 2048px texture, which is where nearly
+all of the 4-7 MB per file lives - the geometry is trivial by comparison. Its
+JPEG is near-lossless, so re-encoding at the SAME resolution and q90 halves the
+set (44 MB -> 22 MB) while keeping every pixel.
+
+Do not be tempted to downscale. An earlier pass shipped 512px to fit an
+artifact size cap, and the models visibly blurred; the cap was the constraint,
+not the art.
 
 GLB layout: a 12-byte header, then chunks of [uint32 length][4-char type][data].
 Chunk 0 is the JSON manifest, chunk 1 the binary blob. Every accessor,
@@ -17,8 +20,13 @@ import io, json, os, struct, sys
 
 from PIL import Image
 
-MAXPX = 512
-QUALITY = 82
+# 2048 is what Meshy actually delivers. The first pass shipped 512 to fit an
+# artifact size cap that GitHub Pages does not have, and throwing away 94% of
+# the texture resolution is exactly why the models read as blurry. Re-encoding
+# at 2048/q90 keeps every pixel and is still far smaller than Meshy's own
+# near-lossless JPEG.
+MAXPX = 2048
+QUALITY = 90
 
 
 def read_glb(path):

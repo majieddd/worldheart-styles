@@ -28,7 +28,8 @@ canvas{display:block}
    printed on the thing you are looking at. */
 #grade{position:fixed;inset:0;pointer-events:none;opacity:0}
 #grade.on{opacity:1}
-body[data-style="retroanime"] #grade{
+body[data-style="retroanime"] #grade,
+body[data-style="paintline"] #grade{
   background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4'/></filter><rect width='180' height='180' filter='url(%23n)' opacity='0.85'/></svg>");
   background-size:180px 180px;opacity:.30;mix-blend-mode:soft-light}
 #vign{position:fixed;inset:0;pointer-events:none;
@@ -78,6 +79,7 @@ body.playing #keys{opacity:.45}
 <div class="hud" id="topleft">
   <div id="badge"><i></i><b>&mdash;</b></div>
   <div id="switch">
+    <button data-s="paintline">paintline</button>
     <button data-s="retroanime">retroanime</button>
     <button data-s="inkcel">inkcel</button>
     <button data-s="inkline">inkline</button>
@@ -124,6 +126,21 @@ const STYLES = {
     toonSteps:4, ramp0:158, tint:'#ffffff', emissive:0.30, grain:true,
     note:'Hand-painted cel. Gouache sky, four-step ramp so the light reads as painted washes '
         +'rather than banding, and no contour anywhere — form is carried by colour alone.'},
+  // OWNER-DIRECTED BLEND. Everything about the cel style's paint and palette,
+  // plus a clean ink contour — and hatch:0, because the shadow-line effect was
+  // the one part of the inked look that was not wanted. The bodies underneath
+  // are the inkcel geometry, retextured in gouache (Meshy retexture), since
+  // those meshes read better than the retroanime set.
+  paintline:{
+    hue:'#c8a05a', sky:'sky/paintline.webp',
+    fog:'#cfe0ea', fogNear:150, fogFar:520,
+    grass:'#6f9e4e', grassHi:'#a8c46b', rock:'#8a8a72', trunk:'#6b4a33',
+    sunDir:[-0.42,0.40,-1], sunCol:'#fff4dc', sunI:1.30,
+    hemi:'#d8ecf7', hemiG:'#4e6b38', hemiI:1.20, amb:0.30,
+    outline:0.030, hatch:0, hatchScale:0,
+    toonSteps:4, ramp0:158, tint:'#ffffff', emissive:0.30, grain:true,
+    note:'Painted cel illustration with a clean ink contour on every form, and no hatching '
+        +'at all — the shadow is a single flat darker block of colour, never lines.'},
   inkcel:{
     hue:'#f0e6d8', sky:'sky/inkcel.webp',
     fog:'#a9cbe0', fogNear:140, fogFar:480,

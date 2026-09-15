@@ -15,6 +15,11 @@ import json, os
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 STYLES = [
+ ('paintline', '#c8a05a', 'Painted cel + ink line',
+  'The owner-directed blend. retroanime’s hand-painted gouache illustration and palette, '
+  'with a clean black ink contour on every form — and no hatching at all: a shadow is one '
+  'flat darker block of colour, never lines. The bodies are the inkcel meshes, retextured.',
+  ['#8c5a3c', '#e0c08a', '#3f5a7a', '#c86a46']),
  ('retroanime', '#d98ba6', 'Soft painted cel',
   'A hand-painted 1980s anime film cel. Every edge is a change of flat colour and one hard '
   'shadow terminator — no contour anywhere. Airbrushed sky gradients, muted print-warm '
@@ -69,7 +74,7 @@ h2{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--fg3)
 .lede{color:var(--fg2);max-width:80ch;margin:0 0 18px;font-size:13px}
 
 /* ---- comparison matrix ---- */
-.matrix{display:grid;grid-template-columns:150px repeat(3,minmax(0,1fr));gap:10px;
+.matrix{display:grid;grid-template-columns:150px repeat(var(--cols,3),minmax(0,1fr));gap:10px;
   align-items:start}
 .matrix .colhead{position:sticky;top:0;z-index:2;background:var(--ink);
   padding:8px 0 10px;border-bottom:1px solid var(--line)}
@@ -207,7 +212,7 @@ def build():
 
 <h2>The comparison</h2>
 <p class="lede">Same moment, same world, three looks. Click any frame to enlarge.</p>
-<div class="matrix">
+<div class="matrix" style="--cols:{NCOLS}">
   <div></div>%s
   %s
 </div>
@@ -248,6 +253,7 @@ document.addEventListener('click',e=>{
   lb.showModal();
 });
 </script>""" % (CSS, cols, rows, bands)
+    html = html.replace("{NCOLS}", str(len(STYLES)))
 
     p = os.path.join(HERE, 'styles.html')
     with open(p, 'w', encoding='utf-8', newline='') as f:

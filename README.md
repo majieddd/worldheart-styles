@@ -276,3 +276,48 @@ separately crushing the models' painted colour into a 23%-brightness band, and a
 toon ramp discards hue entirely wherever the key light does not reach — feeding
 the base texture back as an **emissive map** is what keeps the shadowed side
 coloured. Neither is a texture problem; both look like one.
+
+
+### Making the 3D read as the style (not as a filter over it)
+
+Two owner notes drove this round, and both were the same complaint in different
+clothes: the styling sat **over** the render instead of **in** it.
+
+**The comic look was a screen overlay.** `inkline`'s halftone was a CSS dot
+screen across the viewport, so it stayed pinned to the glass while the world
+slid underneath — a filter on the lens, not ink on the object. It is now a
+hatch computed from each fragment's **object-space position**, injected into the
+toon material's fragment stage via `onBeforeCompile`: two line sets at different
+angles, the first fading in through mid shadow and the second crossing it only
+in deep shadow, which is how a cross-hatch is actually built up. The lines turn
+with the mesh and follow its curvature.
+
+Three things that only show up once you try it:
+
+* **Frequency has to scale per object.** One global frequency gives a 2m
+  character a readable five lines across the chest and the 760m terrain lines
+  0.4m apart — sub-pixel, so the ground came back with no hatch at all. Each
+  material now takes a multiplier.
+* **The hatch must fade with distance.** A line fine enough to read at your feet
+  is moiré at fifty metres. `1.0 / gl_FragCoord.w` is the view distance and,
+  unlike `vViewPosition`, is guaranteed to exist in every fragment stage —
+  reaching for that varying is what made the first version fail to compile and
+  silently drop the entire terrain out of the scene.
+* **Open sunlit ground should carry no ink.** Starting the hatch at 0.74
+  luminance striped a lit meadow. Hatching belongs on the shadow side of a form.
+
+**The cel look had no world.** `retroanime` was a red dust plain, which is not
+what that style is for. It is now a green valley: a painted gouache sky
+panorama generated with Higgsfield and mapped equirectangularly onto the dome,
+rolling noise-displaced terrain with height-blended vertex colour, and scattered
+low-poly trees. All three styles share that same valley and the same tableau —
+only sky, palette, ramp and ink change, so a style can only win on how it looks
+rather than on having drawn a nicer location.
+
+### One operational scar
+
+`stage_pages.py` used to `rmtree` its own output directory, which is also the
+git checkout it pushes from. The second run deleted the repository along with
+the files, and Windows' read-only git objects made it fail halfway. It now
+clears everything **except `.git`**, with an `onerror` that chmods read-only
+objects. The remote was intact, so the history came back from a re-clone.

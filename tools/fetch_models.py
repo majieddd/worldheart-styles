@@ -22,6 +22,10 @@ FILES = {
  'inkline_commander':    'hf_20260915_184107_33926a5a-a6a3-40a9-975d-757ff26082a3.glb',
  'inkline_enemy':        'hf_20260915_184109_915d3acc-1582-45dc-8ddd-1bb106cdda04.glb',
  'inkline_tower':        'hf_20260915_184110_85fee003-5c61-4803-af95-70759f8b50ab.glb',
+ # paintline: the inkcel meshes retextured in gouache (meshy_v5_retexture)
+ 'paintline_commander':  'hf_20260915_202332_cec4805e-ed5a-45e3-9320-15b0cc852814.glb',
+ 'paintline_enemy':      'hf_20260915_202335_ff48b678-99fa-447e-9098-c370d5e02402.glb',
+ 'paintline_tower':      'hf_20260915_202337_80dfc7d7-2943-4b01-97ef-0d4cf11e23ea.glb',
 }
 
 
