@@ -1,0 +1,1642 @@
+{
+"aftermath_reddwarf_cinematic": {
+"beat": "aftermath",
+"direction": "cinematic",
+"lora": "k2_misty-anime-cinematic.safetensors",
+"lora_strength": 0.6,
+"place": "reddwarf",
+"prompt": "deep crimson and umber palette, in-game screenshot from a third-person gameplay camera, backlit mist, long lens compression, shallow depth of field, the battlefield after a won wave on low hardy scrub and wind-carved stone under permanent red light, split insectoid carapaces and severed chitin limbs lying where they fell, scorch marks burnt into the ground, a single avatar defender standing among them, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide still shot, no motion, long shadows, filmic grade with lifted blacks, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A TRAPPIST-1 class world: dim red primary, permanent long shadows",
+"seed": 711727271
+},
+"aftermath_shattered_ashen": {
+"beat": "aftermath",
+"direction": "ashen",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.75,
+"place": "shattered",
+"prompt": "ash grey and ember orange palette, in-game screenshot from a third-person gameplay camera, low overcast broken by one shaft of pale sun, heavy atmospheric haze, hard rim light, the battlefield after a won wave on the broken hemisphere of a cracked planet with continent shards adrift above it, split insectoid carapaces and severed chitin limbs lying where they fell, scorch marks burnt into the ground, a single avatar defender standing among them, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide still shot, no motion, long shadows, desaturated grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A world already lost: broken hemisphere, continents adrift",
+"seed": 1694359852
+},
+"aftermath_titan_inkline": {
+"beat": "aftermath",
+"direction": "inkline",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.95,
+"place": "titan",
+"prompt": "amber and ochre palette under a sunless orange haze, in-game screenshot from a third-person gameplay camera, hard directional sun, heavy ink contour lines, printed halftone shadow, the battlefield after a won wave on dunes of dark hydrocarbon sand around flat mirror-still methane lakes, split insectoid carapaces and severed chitin limbs lying where they fell, scorch marks burnt into the ground, a single avatar defender standing among them, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide still shot, no motion, long shadows, graphic high-contrast grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Titan: thick orange haze, hydrocarbon dunes and methane lakes",
+"seed": 185700555
+},
+"aftermath_venus_clayworld": {
+"beat": "aftermath",
+"direction": "clayworld",
+"lora": "k2_miniature-diorama-figurine.safetensors",
+"lora_strength": 0.6,
+"place": "venus",
+"prompt": "sulphur gold and pearl grey palette, in-game screenshot from a third-person gameplay camera, soft broad studio light, handmade clay surfaces with visible tool marks, the battlefield after a won wave on tethered platforms floating above an unbroken cloud deck, split insectoid carapaces and severed chitin limbs lying where they fell, scorch marks burnt into the ground, a single avatar defender standing among them, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide still shot, no motion, long shadows, warm handmade grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Venus: the habitable zone is the cloud deck at 50km, not the ground",
+"seed": 388758453
+},
+"approach_io_cinematic": {
+"beat": "approach",
+"direction": "cinematic",
+"lora": "k2_misty-anime-cinematic.safetensors",
+"lora_strength": 0.6,
+"place": "io",
+"prompt": "sulphur yellow and black basalt palette, in-game screenshot from a third-person gameplay camera, backlit mist, long lens compression, shallow depth of field, a drop pod streaking down through the upper atmosphere toward sulphur plains split by lava fountains and black basalt shelves far below, heat shear peeling off its nose, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, high wide shot, motion streaks, the ground rushing up, filmic grade with lifted blacks, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Io: tidally heated, the most volcanic body in the solar system",
+"seed": 644723200
+},
+"approach_ringmoon_voidlight": {
+"beat": "approach",
+"direction": "voidlight",
+"lora": "k2_glowing-ember-fantasy.safetensors",
+"lora_strength": 0.7,
+"place": "ringmoon",
+"prompt": "violet and pale gold palette, in-game screenshot from a third-person gameplay camera, lit from below by glowing cyan crystal, bioluminescent rim light, a drop pod streaking down through the upper atmosphere toward dust plains crossed by the hard-edged shadow band of a ring far below, heat shear peeling off its nose, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, high wide shot, motion streaks, the ground rushing up, deep cool grade with protected highlights, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A shepherd moon: the primary and its rings dominate the sky",
+"seed": 1130201632
+},
+"approach_shattered_ashen": {
+"beat": "approach",
+"direction": "ashen",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.75,
+"place": "shattered",
+"prompt": "ash grey and ember orange palette, in-game screenshot from a third-person gameplay camera, low overcast broken by one shaft of pale sun, heavy atmospheric haze, hard rim light, a drop pod streaking down through the upper atmosphere toward the broken hemisphere of a cracked planet with continent shards adrift above it far below, heat shear peeling off its nose, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, high wide shot, motion streaks, the ground rushing up, desaturated grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A world already lost: broken hemisphere, continents adrift",
+"seed": 650957226
+},
+"approach_titan_retroanime": {
+"beat": "approach",
+"direction": "retroanime",
+"lora": "k2_official_retroanime.safetensors",
+"lora_strength": 0.65,
+"place": "titan",
+"prompt": "amber and ochre palette under a sunless orange haze, in-game screenshot from a third-person gameplay camera, flat cel light with hard shadow terminators, a drop pod streaking down through the upper atmosphere toward dunes of dark hydrocarbon sand around flat mirror-still methane lakes far below, heat shear peeling off its nose, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, high wide shot, motion streaks, the ground rushing up, retro anime colour grade with slight print warmth, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Titan: thick orange haze, hydrocarbon dunes and methane lakes",
+"seed": 1965387245
+},
+"approach_venus_elysian": {
+"beat": "approach",
+"direction": "elysian",
+"lora": "k2_sunlit-painterly-anime.safetensors",
+"lora_strength": 0.6,
+"place": "venus",
+"prompt": "sulphur gold and pearl grey palette, in-game screenshot from a third-person gameplay camera, high afternoon sun, painterly cumulus, volumetric god rays, soft rim light, a drop pod streaking down through the upper atmosphere toward tethered platforms floating above an unbroken cloud deck far below, heat shear peeling off its nose, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, high wide shot, motion streaks, the ground rushing up, rich but grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Venus: the habitable zone is the cloud deck at 50km, not the ground",
+"seed": 1826630463
+},
+"boss_enceladus_inkline": {
+"beat": "boss",
+"direction": "inkline",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.95,
+"place": "enceladus",
+"prompt": "glacier white and pale blue palette, in-game screenshot from a third-person gameplay camera, hard directional sun, heavy ink contour lines, printed halftone shadow, a titan invader, a mountain-sized armoured leviathan, rising over tiger-stripe fissures venting geyser plumes over fresh snow while tiny avatar defenders brace at its feet, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, extreme low angle, the titan breaking the top of the frame, graphic high-contrast grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Enceladus: tiger-stripe fissures venting plumes into space",
+"seed": 1954841906
+},
+"boss_io_cinematic": {
+"beat": "boss",
+"direction": "cinematic",
+"lora": "k2_misty-anime-cinematic.safetensors",
+"lora_strength": 0.6,
+"place": "io",
+"prompt": "sulphur yellow and black basalt palette, in-game screenshot from a third-person gameplay camera, backlit mist, long lens compression, shallow depth of field, a titan invader, a mountain-sized armoured leviathan, rising over sulphur plains split by lava fountains and black basalt shelves while tiny avatar defenders brace at its feet, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, extreme low angle, the titan breaking the top of the frame, filmic grade with lifted blacks, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Io: tidally heated, the most volcanic body in the solar system",
+"seed": 2113588899
+},
+"boss_io_inkcel": {
+"beat": "boss",
+"direction": "inkcel",
+"lora": "k2_official_retroanime.safetensors + k2_bold-inked-superhero-comic.safetensors",
+"lora_strength": "0.5 / 0.85",
+"place": "io",
+"prompt": "sulphur yellow and black basalt palette, cel-shaded comic book videogame render, every form bounded by a thick black ink outline of even uniform weight, interior panel edges inked too, in-game screenshot from a third-person gameplay camera, hard low sun, flat cel fills with hard shadow terminators, a titan invader, a mountain-sized armoured leviathan, rising over sulphur plains split by lava fountains and black basalt shelves while tiny avatar defenders brace at its feet, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, smooth featureless rounded heads of plain unmarked plastic, avatars in differing bold team colours, cross-hatched ink hatching inside the shadows, faceted low-polygon rock, extreme low angle, the titan breaking the top of the frame, high-contrast comic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Io: tidally heated, the most volcanic body in the solar system",
+"seed": 52799110
+},
+"boss_io_retroanime": {
+"beat": "boss",
+"direction": "retroanime",
+"lora": "k2_official_retroanime.safetensors",
+"lora_strength": 0.65,
+"place": "io",
+"prompt": "sulphur yellow and black basalt palette, in-game screenshot from a third-person gameplay camera, flat cel light with hard shadow terminators, a titan invader, a mountain-sized armoured leviathan, rising over sulphur plains split by lava fountains and black basalt shelves while tiny avatar defenders brace at its feet, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, extreme low angle, the titan breaking the top of the frame, retro anime colour grade with slight print warmth, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Io: tidally heated, the most volcanic body in the solar system",
+"seed": 2134996734
+},
+"boss_ocean_elysian": {
+"beat": "boss",
+"direction": "elysian",
+"lora": "k2_sunlit-painterly-anime.safetensors",
+"lora_strength": 0.6,
+"place": "ocean",
+"prompt": "turquoise and sand gold palette, in-game screenshot from a third-person gameplay camera, high afternoon sun, painterly cumulus, volumetric god rays, soft rim light, a titan invader, a mountain-sized armoured leviathan, rising over a floating archipelago of green islands over a global ocean while tiny avatar defenders brace at its feet, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, extreme low angle, the titan breaking the top of the frame, rich but grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A global-ocean world: land exists only as an archipelago",
+"seed": 71069297
+},
+"boss_rogue_voidlight": {
+"beat": "boss",
+"direction": "voidlight",
+"lora": "k2_glowing-ember-fantasy.safetensors",
+"lora_strength": 0.7,
+"place": "rogue",
+"prompt": "black and bioluminescent teal palette, in-game screenshot from a third-person gameplay camera, lit from below by glowing cyan crystal, bioluminescent rim light, a titan invader, a mountain-sized armoured leviathan, rising over geothermal vents feeding glowing fungal forests in total darkness while tiny avatar defenders brace at its feet, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, extreme low angle, the titan breaking the top of the frame, deep cool grade with protected highlights, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A rogue planet: no star at all, geothermal heat and life that glows",
+"seed": 107154720
+},
+"boss_shattered_ashen": {
+"beat": "boss",
+"direction": "ashen",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.75,
+"place": "shattered",
+"prompt": "ash grey and ember orange palette, in-game screenshot from a third-person gameplay camera, low overcast broken by one shaft of pale sun, heavy atmospheric haze, hard rim light, a titan invader, a mountain-sized armoured leviathan, rising over the broken hemisphere of a cracked planet with continent shards adrift above it while tiny avatar defenders brace at its feet, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, extreme low angle, the titan breaking the top of the frame, desaturated grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A world already lost: broken hemisphere, continents adrift",
+"seed": 1207626759
+},
+"buildgrid_europa_earlycgi": {
+"beat": "buildgrid",
+"direction": "earlycgi",
+"lora": "k2_early-cgi-surreal-render.safetensors",
+"lora_strength": 0.6,
+"place": "europa",
+"prompt": "pale cyan and bone white palette with rust-brown fracture lines, in-game screenshot from a third-person gameplay camera, flat ambient light with a hard sky gradient, early-2000s game-engine sheen, build mode active: a translucent blue placement grid laid over cracked ice plains scored with pressure ridges and refrozen leads, a ghosted preview of a defence tower snapping to one cell, plain unlettered icon tiles of solid colour along the lower edge of the frame, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, elevated three-quarter view, the grid receding to the horizon, clean nostalgic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Europa: ice shell over a liquid ocean, rust-stained fractures",
+"seed": 1791005351
+},
+"buildgrid_mars_faceted": {
+"beat": "buildgrid",
+"direction": "faceted",
+"lora": "k2_terracotta-lowpoly-miniature.safetensors",
+"lora_strength": 0.7,
+"place": "mars",
+"prompt": "rust red and dusty violet palette, in-game screenshot from a third-person gameplay camera, hard low sun, flat faceted planes catching light, long raking shadows, build mode active: a translucent blue placement grid laid over a layered sediment canyon four kilometres deep with dust devils on the floor, a ghosted preview of a defence tower snapping to one cell, plain unlettered icon tiles of solid colour along the lower edge of the frame, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, elevated three-quarter view, the grid receding to the horizon, flat matte grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 1890113452
+},
+"buildgrid_ocean_toybox": {
+"beat": "buildgrid",
+"direction": "toybox",
+"lora": "k2_bold-clay-toy-render.safetensors",
+"lora_strength": 0.45,
+"place": "ocean",
+"prompt": "turquoise and sand gold palette, in-game screenshot from a third-person gameplay camera, clean bright key light, glossy vinyl highlights, crisp contact shadows, build mode active: a translucent blue placement grid laid over a floating archipelago of green islands over a global ocean, a ghosted preview of a defence tower snapping to one cell, plain unlettered icon tiles of solid colour along the lower edge of the frame, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, elevated three-quarter view, the grid receding to the horizon, saturated clean grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A global-ocean world: land exists only as an archipelago",
+"seed": 2058464474
+},
+"buildgrid_rogue_inkline": {
+"beat": "buildgrid",
+"direction": "inkline",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.95,
+"place": "rogue",
+"prompt": "black and bioluminescent teal palette, in-game screenshot from a third-person gameplay camera, hard directional sun, heavy ink contour lines, printed halftone shadow, build mode active: a translucent blue placement grid laid over geothermal vents feeding glowing fungal forests in total darkness, a ghosted preview of a defence tower snapping to one cell, plain unlettered icon tiles of solid colour along the lower edge of the frame, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, elevated three-quarter view, the grid receding to the horizon, graphic high-contrast grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A rogue planet: no star at all, geothermal heat and life that glows",
+"seed": 2089143119
+},
+"buildgrid_terminator_inkcel": {
+"beat": "buildgrid",
+"direction": "inkcel",
+"lora": "k2_official_retroanime.safetensors + k2_bold-inked-superhero-comic.safetensors",
+"lora_strength": "0.5 / 0.85",
+"place": "terminator",
+"prompt": "copper and deep blue palette split along a terminator line, cel-shaded comic book videogame render, every form bounded by a thick black ink outline of even uniform weight, interior panel edges inked too, in-game screenshot from a third-person gameplay camera, hard low sun, flat cel fills with hard shadow terminators, build mode active: a translucent blue placement grid laid over an eternal sunset band between a scorched day side and an ice night side, a ghosted preview of a defence tower snapping to one cell, plain unlettered icon tiles of solid colour along the lower edge of the frame, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, smooth featureless rounded heads of plain unmarked plastic, avatars in differing bold team colours, cross-hatched ink hatching inside the shadows, faceted low-polygon rock, elevated three-quarter view, the grid receding to the horizon, high-contrast comic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A tidally locked world: all the weather lives on the day-night line",
+"seed": 255893022
+},
+"buildgrid_terminator_retroanime": {
+"beat": "buildgrid",
+"direction": "retroanime",
+"lora": "k2_official_retroanime.safetensors",
+"lora_strength": 0.65,
+"place": "terminator",
+"prompt": "copper and deep blue palette split along a terminator line, in-game screenshot from a third-person gameplay camera, flat cel light with hard shadow terminators, build mode active: a translucent blue placement grid laid over an eternal sunset band between a scorched day side and an ice night side, a ghosted preview of a defence tower snapping to one cell, plain unlettered icon tiles of solid colour along the lower edge of the frame, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, elevated three-quarter view, the grid receding to the horizon, retro anime colour grade with slight print warmth, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A tidally locked world: all the weather lives on the day-night line",
+"seed": 1063327958
+},
+"buildgrid_venus_chrome": {
+"beat": "buildgrid",
+"direction": "chrome",
+"lora": "k2_chrome-iridescent-render.safetensors",
+"lora_strength": 0.6,
+"place": "venus",
+"prompt": "sulphur gold and pearl grey palette, in-game screenshot from a third-person gameplay camera, hard specular key, polished chrome and iridescent film, anamorphic lens flare, build mode active: a translucent blue placement grid laid over tethered platforms floating above an unbroken cloud deck, a ghosted preview of a defence tower snapping to one cell, plain unlettered icon tiles of solid colour along the lower edge of the frame, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, elevated three-quarter view, the grid receding to the horizon, cool metallic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Venus: the habitable zone is the cloud deck at 50km, not the ground",
+"seed": 458860188
+},
+"buildgrid_verdant_elysian": {
+"beat": "buildgrid",
+"direction": "elysian",
+"lora": "k2_sunlit-painterly-anime.safetensors",
+"lora_strength": 0.6,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, high afternoon sun, painterly cumulus, volumetric god rays, soft rim light, build mode active: a translucent blue placement grid laid over terraced jungle plateaus and waterfalls over ruins swallowed by growth, a ghosted preview of a defence tower snapping to one cell, plain unlettered icon tiles of solid colour along the lower edge of the frame, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, elevated three-quarter view, the grid receding to the horizon, rich but grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 1230235680
+},
+"clash_europa_faceted": {
+"beat": "clash",
+"direction": "faceted",
+"lora": "k2_terracotta-lowpoly-miniature.safetensors",
+"lora_strength": 0.7,
+"place": "europa",
+"prompt": "pale cyan and bone white palette with rust-brown fracture lines, in-game screenshot from a third-person gameplay camera, hard low sun, flat faceted planes catching light, long raking shadows, the moment of impact on a defence line across cracked ice plains scored with pressure ridges and refrozen leads, muzzle flashes, thrown debris, avatar defenders in violent motion, invaders breaking against a shield wall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, close low camera, dynamic tilt, foreground figures cut by the frame, flat matte grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Europa: ice shell over a liquid ocean, rust-stained fractures",
+"seed": 390398704
+},
+"clash_io_ashen": {
+"beat": "clash",
+"direction": "ashen",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.75,
+"place": "io",
+"prompt": "sulphur yellow and black basalt palette, in-game screenshot from a third-person gameplay camera, low overcast broken by one shaft of pale sun, heavy atmospheric haze, hard rim light, the moment of impact on a defence line across sulphur plains split by lava fountains and black basalt shelves, muzzle flashes, thrown debris, avatar defenders in violent motion, invaders breaking against a shield wall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, close low camera, dynamic tilt, foreground figures cut by the frame, desaturated grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Io: tidally heated, the most volcanic body in the solar system",
+"seed": 1680616531
+},
+"clash_mars_ashen": {
+"beat": "clash",
+"direction": "ashen",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.75,
+"place": "mars",
+"prompt": "rust red and dusty violet palette, in-game screenshot from a third-person gameplay camera, low overcast broken by one shaft of pale sun, heavy atmospheric haze, hard rim light, the moment of impact on a defence line across a layered sediment canyon four kilometres deep with dust devils on the floor, muzzle flashes, thrown debris, avatar defenders in violent motion, invaders breaking against a shield wall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, close low camera, dynamic tilt, foreground figures cut by the frame, desaturated grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 1396987782
+},
+"clash_mars_chrome": {
+"beat": "clash",
+"direction": "chrome",
+"lora": "k2_chrome-iridescent-render.safetensors",
+"lora_strength": 0.6,
+"place": "mars",
+"prompt": "rust red and dusty violet palette, in-game screenshot from a third-person gameplay camera, hard specular key, polished chrome and iridescent film, anamorphic lens flare, the moment of impact on a defence line across a layered sediment canyon four kilometres deep with dust devils on the floor, muzzle flashes, thrown debris, avatar defenders in violent motion, invaders breaking against a shield wall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, close low camera, dynamic tilt, foreground figures cut by the frame, cool metallic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 1164259161
+},
+"clash_mars_cinematic": {
+"beat": "clash",
+"direction": "cinematic",
+"lora": "k2_misty-anime-cinematic.safetensors",
+"lora_strength": 0.6,
+"place": "mars",
+"prompt": "rust red and dusty violet palette, in-game screenshot from a third-person gameplay camera, backlit mist, long lens compression, shallow depth of field, the moment of impact on a defence line across a layered sediment canyon four kilometres deep with dust devils on the floor, muzzle flashes, thrown debris, avatar defenders in violent motion, invaders breaking against a shield wall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, close low camera, dynamic tilt, foreground figures cut by the frame, filmic grade with lifted blacks, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 1353883432
+},
+"clash_mars_clayworld": {
+"beat": "clash",
+"direction": "clayworld",
+"lora": "k2_miniature-diorama-figurine.safetensors",
+"lora_strength": 0.6,
+"place": "mars",
+"prompt": "rust red and dusty violet palette, in-game screenshot from a third-person gameplay camera, soft broad studio light, handmade clay surfaces with visible tool marks, the moment of impact on a defence line across a layered sediment canyon four kilometres deep with dust devils on the floor, muzzle flashes, thrown debris, avatar defenders in violent motion, invaders breaking against a shield wall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, close low camera, dynamic tilt, foreground figures cut by the frame, warm handmade grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 1024367410
+},
+"clash_mars_earlycgi": {
+"beat": "clash",
+"direction": "earlycgi",
+"lora": "k2_early-cgi-surreal-render.safetensors",
+"lora_strength": 0.6,
+"place": "mars",
+"prompt": "rust red and dusty violet palette, in-game screenshot from a third-person gameplay camera, flat ambient light with a hard sky gradient, early-2000s game-engine sheen, the moment of impact on a defence line across a layered sediment canyon four kilometres deep with dust devils on the floor, muzzle flashes, thrown debris, avatar defenders in violent motion, invaders breaking against a shield wall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, close low camera, dynamic tilt, foreground figures cut by the frame, clean nostalgic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 451374803
+},
+"clash_mars_elysian": {
+"beat": "clash",
+"direction": "elysian",
+"lora": "k2_sunlit-painterly-anime.safetensors",
+"lora_strength": 0.6,
+"place": "mars",
+"prompt": "rust red and dusty violet palette, in-game screenshot from a third-person gameplay camera, high afternoon sun, painterly cumulus, volumetric god rays, soft rim light, the moment of impact on a defence line across a layered sediment canyon four kilometres deep with dust devils on the floor, muzzle flashes, thrown debris, avatar defenders in violent motion, invaders breaking against a shield wall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, close low camera, dynamic tilt, foreground figures cut by the frame, rich but grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 1897528058
+},
+"clash_mars_faceted": {
+"beat": "clash",
+"direction": "faceted",
+"lora": "k2_terracotta-lowpoly-miniature.safetensors",
+"lora_strength": 0.7,
+"place": "mars",
+"prompt": "rust red and dusty violet palette, in-game screenshot from a third-person gameplay camera, hard low sun, flat faceted planes catching light, long raking shadows, the moment of impact on a defence line across a layered sediment canyon four kilometres deep with dust devils on the floor, muzzle flashes, thrown debris, avatar defenders in violent motion, invaders breaking against a shield wall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, close low camera, dynamic tilt, foreground figures cut by the frame, flat matte grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 496894047
+},
+"clash_mars_inkcel": {
+"beat": "clash",
+"direction": "inkcel",
+"lora": "k2_official_retroanime.safetensors + k2_bold-inked-superhero-comic.safetensors",
+"lora_strength": "0.5 / 0.85",
+"place": "mars",
+"prompt": "rust red and dusty violet palette, cel-shaded comic book videogame render, every form bounded by a thick black ink outline of even uniform weight, interior panel edges inked too, in-game screenshot from a third-person gameplay camera, hard low sun, flat cel fills with hard shadow terminators, the moment of impact on a defence line across a layered sediment canyon four kilometres deep with dust devils on the floor, muzzle flashes, thrown debris, avatar defenders in violent motion, invaders breaking against a shield wall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, smooth featureless rounded heads of plain unmarked plastic, avatars in differing bold team colours, cross-hatched ink hatching inside the shadows, faceted low-polygon rock, close low camera, dynamic tilt, foreground figures cut by the frame, high-contrast comic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 796488315
+},
+"clash_mars_inkline": {
+"beat": "clash",
+"direction": "inkline",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.95,
+"place": "mars",
+"prompt": "rust red and dusty violet palette, in-game screenshot from a third-person gameplay camera, hard directional sun, heavy ink contour lines, printed halftone shadow, the moment of impact on a defence line across a layered sediment canyon four kilometres deep with dust devils on the floor, muzzle flashes, thrown debris, avatar defenders in violent motion, invaders breaking against a shield wall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, close low camera, dynamic tilt, foreground figures cut by the frame, graphic high-contrast grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 36508583
+},
+"clash_mars_retroanime": {
+"beat": "clash",
+"direction": "retroanime",
+"lora": "k2_official_retroanime.safetensors",
+"lora_strength": 0.65,
+"place": "mars",
+"prompt": "rust red and dusty violet palette, in-game screenshot from a third-person gameplay camera, flat cel light with hard shadow terminators, the moment of impact on a defence line across a layered sediment canyon four kilometres deep with dust devils on the floor, muzzle flashes, thrown debris, avatar defenders in violent motion, invaders breaking against a shield wall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, close low camera, dynamic tilt, foreground figures cut by the frame, retro anime colour grade with slight print warmth, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 1960937291
+},
+"clash_mars_toybox": {
+"beat": "clash",
+"direction": "toybox",
+"lora": "k2_bold-clay-toy-render.safetensors",
+"lora_strength": 0.45,
+"place": "mars",
+"prompt": "rust red and dusty violet palette, in-game screenshot from a third-person gameplay camera, clean bright key light, glossy vinyl highlights, crisp contact shadows, the moment of impact on a defence line across a layered sediment canyon four kilometres deep with dust devils on the floor, muzzle flashes, thrown debris, avatar defenders in violent motion, invaders breaking against a shield wall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, close low camera, dynamic tilt, foreground figures cut by the frame, saturated clean grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 1912617822
+},
+"clash_mars_vinyl": {
+"beat": "clash",
+"direction": "vinyl",
+"lora": "k2_vintage-plastic-toy.safetensors",
+"lora_strength": 0.5,
+"place": "mars",
+"prompt": "rust red and dusty violet palette, in-game screenshot from a third-person gameplay camera, bright even key, saturated primary vinyl surfaces, hard contact shadow, the moment of impact on a defence line across a layered sediment canyon four kilometres deep with dust devils on the floor, muzzle flashes, thrown debris, avatar defenders in violent motion, invaders breaking against a shield wall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, close low camera, dynamic tilt, foreground figures cut by the frame, punchy toy-catalogue grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 261735013
+},
+"clash_mars_voidlight": {
+"beat": "clash",
+"direction": "voidlight",
+"lora": "k2_glowing-ember-fantasy.safetensors",
+"lora_strength": 0.7,
+"place": "mars",
+"prompt": "rust red and dusty violet palette, in-game screenshot from a third-person gameplay camera, lit from below by glowing cyan crystal, bioluminescent rim light, the moment of impact on a defence line across a layered sediment canyon four kilometres deep with dust devils on the floor, muzzle flashes, thrown debris, avatar defenders in violent motion, invaders breaking against a shield wall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, close low camera, dynamic tilt, foreground figures cut by the frame, deep cool grade with protected highlights, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 1332316915
+},
+"clash_shattered_voidlight": {
+"beat": "clash",
+"direction": "voidlight",
+"lora": "k2_glowing-ember-fantasy.safetensors",
+"lora_strength": 0.7,
+"place": "shattered",
+"prompt": "ash grey and ember orange palette, in-game screenshot from a third-person gameplay camera, lit from below by glowing cyan crystal, bioluminescent rim light, the moment of impact on a defence line across the broken hemisphere of a cracked planet with continent shards adrift above it, muzzle flashes, thrown debris, avatar defenders in violent motion, invaders breaking against a shield wall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, close low camera, dynamic tilt, foreground figures cut by the frame, deep cool grade with protected highlights, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A world already lost: broken hemisphere, continents adrift",
+"seed": 430626964
+},
+"clash_venus_toybox": {
+"beat": "clash",
+"direction": "toybox",
+"lora": "k2_bold-clay-toy-render.safetensors",
+"lora_strength": 0.45,
+"place": "venus",
+"prompt": "sulphur gold and pearl grey palette, in-game screenshot from a third-person gameplay camera, clean bright key light, glossy vinyl highlights, crisp contact shadows, the moment of impact on a defence line across tethered platforms floating above an unbroken cloud deck, muzzle flashes, thrown debris, avatar defenders in violent motion, invaders breaking against a shield wall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, close low camera, dynamic tilt, foreground figures cut by the frame, saturated clean grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Venus: the habitable zone is the cloud deck at 50km, not the ground",
+"seed": 802637112
+},
+"clash_verdant_elysian": {
+"beat": "clash",
+"direction": "elysian",
+"lora": "k2_sunlit-painterly-anime.safetensors",
+"lora_strength": 0.6,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, high afternoon sun, painterly cumulus, volumetric god rays, soft rim light, the moment of impact on a defence line across terraced jungle plateaus and waterfalls over ruins swallowed by growth, muzzle flashes, thrown debris, avatar defenders in violent motion, invaders breaking against a shield wall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, close low camera, dynamic tilt, foreground figures cut by the frame, rich but grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 179347009
+},
+"coresiege_europa_voidlight": {
+"beat": "coresiege",
+"direction": "voidlight",
+"lora": "k2_glowing-ember-fantasy.safetensors",
+"lora_strength": 0.7,
+"place": "europa",
+"prompt": "pale cyan and bone white palette with rust-brown fracture lines, in-game screenshot from a third-person gameplay camera, lit from below by glowing cyan crystal, bioluminescent rim light, the WorldHeart core cracked and flickering at the centre of a ruined emplacement on cracked ice plains scored with pressure ridges and refrozen leads, defenders forming a last ring around it, shield panels failing, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium shot from slightly high, the core centred and small, deep cool grade with protected highlights, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Europa: ice shell over a liquid ocean, rust-stained fractures",
+"seed": 321724265
+},
+"coresiege_mars_faceted": {
+"beat": "coresiege",
+"direction": "faceted",
+"lora": "k2_terracotta-lowpoly-miniature.safetensors",
+"lora_strength": 0.7,
+"place": "mars",
+"prompt": "rust red and dusty violet palette, in-game screenshot from a third-person gameplay camera, hard low sun, flat faceted planes catching light, long raking shadows, the WorldHeart core cracked and flickering at the centre of a ruined emplacement on a layered sediment canyon four kilometres deep with dust devils on the floor, defenders forming a last ring around it, shield panels failing, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium shot from slightly high, the core centred and small, flat matte grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 689851434
+},
+"coresiege_reddwarf_cinematic": {
+"beat": "coresiege",
+"direction": "cinematic",
+"lora": "k2_misty-anime-cinematic.safetensors",
+"lora_strength": 0.6,
+"place": "reddwarf",
+"prompt": "deep crimson and umber palette, in-game screenshot from a third-person gameplay camera, backlit mist, long lens compression, shallow depth of field, the WorldHeart core cracked and flickering at the centre of a ruined emplacement on low hardy scrub and wind-carved stone under permanent red light, defenders forming a last ring around it, shield panels failing, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium shot from slightly high, the core centred and small, filmic grade with lifted blacks, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A TRAPPIST-1 class world: dim red primary, permanent long shadows",
+"seed": 559015589
+},
+"coresiege_shattered_ashen": {
+"beat": "coresiege",
+"direction": "ashen",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.75,
+"place": "shattered",
+"prompt": "ash grey and ember orange palette, in-game screenshot from a third-person gameplay camera, low overcast broken by one shaft of pale sun, heavy atmospheric haze, hard rim light, the WorldHeart core cracked and flickering at the centre of a ruined emplacement on the broken hemisphere of a cracked planet with continent shards adrift above it, defenders forming a last ring around it, shield panels failing, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium shot from slightly high, the core centred and small, desaturated grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A world already lost: broken hemisphere, continents adrift",
+"seed": 696430370
+},
+"coresiege_shattered_inkcel": {
+"beat": "coresiege",
+"direction": "inkcel",
+"lora": "k2_official_retroanime.safetensors + k2_bold-inked-superhero-comic.safetensors",
+"lora_strength": "0.5 / 0.85",
+"place": "shattered",
+"prompt": "ash grey and ember orange palette, cel-shaded comic book videogame render, every form bounded by a thick black ink outline of even uniform weight, interior panel edges inked too, in-game screenshot from a third-person gameplay camera, hard low sun, flat cel fills with hard shadow terminators, the WorldHeart core cracked and flickering at the centre of a ruined emplacement on the broken hemisphere of a cracked planet with continent shards adrift above it, defenders forming a last ring around it, shield panels failing, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, smooth featureless rounded heads of plain unmarked plastic, avatars in differing bold team colours, cross-hatched ink hatching inside the shadows, faceted low-polygon rock, medium shot from slightly high, the core centred and small, high-contrast comic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A world already lost: broken hemisphere, continents adrift",
+"seed": 1489097719
+},
+"coresiege_shattered_retroanime": {
+"beat": "coresiege",
+"direction": "retroanime",
+"lora": "k2_official_retroanime.safetensors",
+"lora_strength": 0.65,
+"place": "shattered",
+"prompt": "ash grey and ember orange palette, in-game screenshot from a third-person gameplay camera, flat cel light with hard shadow terminators, the WorldHeart core cracked and flickering at the centre of a ruined emplacement on the broken hemisphere of a cracked planet with continent shards adrift above it, defenders forming a last ring around it, shield panels failing, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium shot from slightly high, the core centred and small, retro anime colour grade with slight print warmth, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A world already lost: broken hemisphere, continents adrift",
+"seed": 1798850191
+},
+"coresiege_titan_vinyl": {
+"beat": "coresiege",
+"direction": "vinyl",
+"lora": "k2_vintage-plastic-toy.safetensors",
+"lora_strength": 0.5,
+"place": "titan",
+"prompt": "amber and ochre palette under a sunless orange haze, in-game screenshot from a third-person gameplay camera, bright even key, saturated primary vinyl surfaces, hard contact shadow, the WorldHeart core cracked and flickering at the centre of a ruined emplacement on dunes of dark hydrocarbon sand around flat mirror-still methane lakes, defenders forming a last ring around it, shield panels failing, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium shot from slightly high, the core centred and small, punchy toy-catalogue grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Titan: thick orange haze, hydrocarbon dunes and methane lakes",
+"seed": 258167227
+},
+"fighter_io_inkline": {
+"beat": "fighter",
+"direction": "inkline",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.95,
+"place": "io",
+"prompt": "sulphur yellow and black basalt palette, in-game screenshot from a third-person gameplay camera, hard directional sun, heavy ink contour lines, printed halftone shadow, an arena duel on sulphur plains split by lava fountains and black basalt shelves, an avatar suspended mid-air wreathed in an energy aura, a shockwave ring blowing dust outward beneath them, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, low three-quarter hero shot, the dust ring in the foreground, graphic high-contrast grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Io: tidally heated, the most volcanic body in the solar system",
+"seed": 2089542942
+},
+"fighter_terminator_inkcel": {
+"beat": "fighter",
+"direction": "inkcel",
+"lora": "k2_official_retroanime.safetensors + k2_bold-inked-superhero-comic.safetensors",
+"lora_strength": "0.5 / 0.85",
+"place": "terminator",
+"prompt": "copper and deep blue palette split along a terminator line, cel-shaded comic book videogame render, every form bounded by a thick black ink outline of even uniform weight, interior panel edges inked too, in-game screenshot from a third-person gameplay camera, hard low sun, flat cel fills with hard shadow terminators, an arena duel on an eternal sunset band between a scorched day side and an ice night side, an avatar suspended mid-air wreathed in an energy aura, a shockwave ring blowing dust outward beneath them, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, smooth featureless rounded heads of plain unmarked plastic, avatars in differing bold team colours, cross-hatched ink hatching inside the shadows, faceted low-polygon rock, low three-quarter hero shot, the dust ring in the foreground, high-contrast comic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A tidally locked world: all the weather lives on the day-night line",
+"seed": 2110816555
+},
+"fighter_terminator_retroanime": {
+"beat": "fighter",
+"direction": "retroanime",
+"lora": "k2_official_retroanime.safetensors",
+"lora_strength": 0.65,
+"place": "terminator",
+"prompt": "copper and deep blue palette split along a terminator line, in-game screenshot from a third-person gameplay camera, flat cel light with hard shadow terminators, an arena duel on an eternal sunset band between a scorched day side and an ice night side, an avatar suspended mid-air wreathed in an energy aura, a shockwave ring blowing dust outward beneath them, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, low three-quarter hero shot, the dust ring in the foreground, retro anime colour grade with slight print warmth, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A tidally locked world: all the weather lives on the day-night line",
+"seed": 2124972699
+},
+"fighter_verdant_elysian": {
+"beat": "fighter",
+"direction": "elysian",
+"lora": "k2_sunlit-painterly-anime.safetensors",
+"lora_strength": 0.6,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, high afternoon sun, painterly cumulus, volumetric god rays, soft rim light, an arena duel on terraced jungle plateaus and waterfalls over ruins swallowed by growth, an avatar suspended mid-air wreathed in an energy aura, a shockwave ring blowing dust outward beneath them, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, low three-quarter hero shot, the dust ring in the foreground, rich but grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 475203481
+},
+"forge_carbon_chrome": {
+"beat": "forge",
+"direction": "chrome",
+"lora": "k2_chrome-iridescent-render.safetensors",
+"lora_strength": 0.6,
+"place": "carbon",
+"prompt": "graphite grey and prismatic white palette, in-game screenshot from a third-person gameplay camera, hard specular key, polished chrome and iridescent film, anamorphic lens flare, an upgrade forge: a tower schematic rotating in light above a dark anvil, plain unlettered tiles of solid colour arranged in a ring around it, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium centred shot, the schematic as the only bright thing, cool metallic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A carbon planet: graphite crust, diamond where the pressure allowed",
+"seed": 608784335
+},
+"forge_io_ashen": {
+"beat": "forge",
+"direction": "ashen",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.75,
+"place": "io",
+"prompt": "sulphur yellow and black basalt palette, in-game screenshot from a third-person gameplay camera, low overcast broken by one shaft of pale sun, heavy atmospheric haze, hard rim light, an upgrade forge: a tower schematic rotating in light above a dark anvil, plain unlettered tiles of solid colour arranged in a ring around it, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium centred shot, the schematic as the only bright thing, desaturated grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Io: tidally heated, the most volcanic body in the solar system",
+"seed": 1421470705
+},
+"forge_titan_clayworld": {
+"beat": "forge",
+"direction": "clayworld",
+"lora": "k2_miniature-diorama-figurine.safetensors",
+"lora_strength": 0.6,
+"place": "titan",
+"prompt": "amber and ochre palette under a sunless orange haze, in-game screenshot from a third-person gameplay camera, soft broad studio light, handmade clay surfaces with visible tool marks, an upgrade forge: a tower schematic rotating in light above a dark anvil, plain unlettered tiles of solid colour arranged in a ring around it, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium centred shot, the schematic as the only bright thing, warm handmade grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Titan: thick orange haze, hydrocarbon dunes and methane lakes",
+"seed": 2079472861
+},
+"horror_europa_ashen": {
+"beat": "horror",
+"direction": "ashen",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.75,
+"place": "europa",
+"prompt": "pale cyan and bone white palette with rust-brown fracture lines, in-game screenshot from a third-person gameplay camera, low overcast broken by one shaft of pale sun, heavy atmospheric haze, hard rim light, a buried corridor under cracked ice plains scored with pressure ridges and refrozen leads, one swinging lamp, a wet floor, something long-limbed standing at the far end of the hall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, centred one-point corridor shot, the lamp the only light, desaturated grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Europa: ice shell over a liquid ocean, rust-stained fractures",
+"seed": 507856600
+},
+"horror_rogue_cinematic": {
+"beat": "horror",
+"direction": "cinematic",
+"lora": "k2_misty-anime-cinematic.safetensors",
+"lora_strength": 0.6,
+"place": "rogue",
+"prompt": "black and bioluminescent teal palette, in-game screenshot from a third-person gameplay camera, backlit mist, long lens compression, shallow depth of field, a buried corridor under geothermal vents feeding glowing fungal forests in total darkness, one swinging lamp, a wet floor, something long-limbed standing at the far end of the hall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, centred one-point corridor shot, the lamp the only light, filmic grade with lifted blacks, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A rogue planet: no star at all, geothermal heat and life that glows",
+"seed": 548889642
+},
+"horror_rogue_retroanime": {
+"beat": "horror",
+"direction": "retroanime",
+"lora": "k2_official_retroanime.safetensors",
+"lora_strength": 0.65,
+"place": "rogue",
+"prompt": "black and bioluminescent teal palette, in-game screenshot from a third-person gameplay camera, flat cel light with hard shadow terminators, a buried corridor under geothermal vents feeding glowing fungal forests in total darkness, one swinging lamp, a wet floor, something long-limbed standing at the far end of the hall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, centred one-point corridor shot, the lamp the only light, retro anime colour grade with slight print warmth, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A rogue planet: no star at all, geothermal heat and life that glows",
+"seed": 78517853
+},
+"horror_shattered_inkline": {
+"beat": "horror",
+"direction": "inkline",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.95,
+"place": "shattered",
+"prompt": "ash grey and ember orange palette, in-game screenshot from a third-person gameplay camera, hard directional sun, heavy ink contour lines, printed halftone shadow, a buried corridor under the broken hemisphere of a cracked planet with continent shards adrift above it, one swinging lamp, a wet floor, something long-limbed standing at the far end of the hall, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, centred one-point corridor shot, the lamp the only light, graphic high-contrast grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A world already lost: broken hemisphere, continents adrift",
+"seed": 2008969451
+},
+"hub_ocean_elysian": {
+"beat": "hub",
+"direction": "elysian",
+"lora": "k2_sunlit-painterly-anime.safetensors",
+"lora_strength": 0.6,
+"place": "ocean",
+"prompt": "turquoise and sand gold palette, in-game screenshot from a third-person gameplay camera, high afternoon sun, painterly cumulus, volumetric god rays, soft rim light, the interior of a between-worlds ship hub, avatars at workbenches and a crew table, a wide curved window showing a floating archipelago of green islands over a global ocean turning below, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium interior shot, warm practical light against the window, rich but grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A global-ocean world: land exists only as an archipelago",
+"seed": 1456168017
+},
+"hub_ringmoon_cinematic": {
+"beat": "hub",
+"direction": "cinematic",
+"lora": "k2_misty-anime-cinematic.safetensors",
+"lora_strength": 0.6,
+"place": "ringmoon",
+"prompt": "violet and pale gold palette, in-game screenshot from a third-person gameplay camera, backlit mist, long lens compression, shallow depth of field, the interior of a between-worlds ship hub, avatars at workbenches and a crew table, a wide curved window showing dust plains crossed by the hard-edged shadow band of a ring turning below, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium interior shot, warm practical light against the window, filmic grade with lifted blacks, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A shepherd moon: the primary and its rings dominate the sky",
+"seed": 1856690788
+},
+"hub_ringmoon_retroanime": {
+"beat": "hub",
+"direction": "retroanime",
+"lora": "k2_official_retroanime.safetensors",
+"lora_strength": 0.65,
+"place": "ringmoon",
+"prompt": "violet and pale gold palette, in-game screenshot from a third-person gameplay camera, flat cel light with hard shadow terminators, the interior of a between-worlds ship hub, avatars at workbenches and a crew table, a wide curved window showing dust plains crossed by the hard-edged shadow band of a ring turning below, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium interior shot, warm practical light against the window, retro anime colour grade with slight print warmth, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A shepherd moon: the primary and its rings dominate the sky",
+"seed": 70815503
+},
+"hub_shattered_ashen": {
+"beat": "hub",
+"direction": "ashen",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.75,
+"place": "shattered",
+"prompt": "ash grey and ember orange palette, in-game screenshot from a third-person gameplay camera, low overcast broken by one shaft of pale sun, heavy atmospheric haze, hard rim light, the interior of a between-worlds ship hub, avatars at workbenches and a crew table, a wide curved window showing the broken hemisphere of a cracked planet with continent shards adrift above it turning below, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium interior shot, warm practical light against the window, desaturated grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A world already lost: broken hemisphere, continents adrift",
+"seed": 116046311
+},
+"hub_titan_earlycgi": {
+"beat": "hub",
+"direction": "earlycgi",
+"lora": "k2_early-cgi-surreal-render.safetensors",
+"lora_strength": 0.6,
+"place": "titan",
+"prompt": "amber and ochre palette under a sunless orange haze, in-game screenshot from a third-person gameplay camera, flat ambient light with a hard sky gradient, early-2000s game-engine sheen, the interior of a between-worlds ship hub, avatars at workbenches and a crew table, a wide curved window showing dunes of dark hydrocarbon sand around flat mirror-still methane lakes turning below, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium interior shot, warm practical light against the window, clean nostalgic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Titan: thick orange haze, hydrocarbon dunes and methane lakes",
+"seed": 366029690
+},
+"landing_europa_faceted": {
+"beat": "landing",
+"direction": "faceted",
+"lora": "k2_terracotta-lowpoly-miniature.safetensors",
+"lora_strength": 0.7,
+"place": "europa",
+"prompt": "pale cyan and bone white palette with rust-brown fracture lines, in-game screenshot from a third-person gameplay camera, hard low sun, flat faceted planes catching light, long raking shadows, the WorldHeart core, a faceted glowing crystal heart in a heavy metal cradle, lowered onto cracked ice plains scored with pressure ridges and refrozen leads on cables while avatar engineers steady it, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, low angle looking up past the cradle, flat matte grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Europa: ice shell over a liquid ocean, rust-stained fractures",
+"seed": 1318401014
+},
+"landing_mars_ashen": {
+"beat": "landing",
+"direction": "ashen",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.75,
+"place": "mars",
+"prompt": "rust red and dusty violet palette, in-game screenshot from a third-person gameplay camera, low overcast broken by one shaft of pale sun, heavy atmospheric haze, hard rim light, the WorldHeart core, a faceted glowing crystal heart in a heavy metal cradle, lowered onto a layered sediment canyon four kilometres deep with dust devils on the floor on cables while avatar engineers steady it, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, low angle looking up past the cradle, desaturated grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 608291060
+},
+"landing_reddwarf_clayworld": {
+"beat": "landing",
+"direction": "clayworld",
+"lora": "k2_miniature-diorama-figurine.safetensors",
+"lora_strength": 0.6,
+"place": "reddwarf",
+"prompt": "deep crimson and umber palette, in-game screenshot from a third-person gameplay camera, soft broad studio light, handmade clay surfaces with visible tool marks, the WorldHeart core, a faceted glowing crystal heart in a heavy metal cradle, lowered onto low hardy scrub and wind-carved stone under permanent red light on cables while avatar engineers steady it, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, low angle looking up past the cradle, warm handmade grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A TRAPPIST-1 class world: dim red primary, permanent long shadows",
+"seed": 1574457996
+},
+"landing_rogue_voidlight": {
+"beat": "landing",
+"direction": "voidlight",
+"lora": "k2_glowing-ember-fantasy.safetensors",
+"lora_strength": 0.7,
+"place": "rogue",
+"prompt": "black and bioluminescent teal palette, in-game screenshot from a third-person gameplay camera, lit from below by glowing cyan crystal, bioluminescent rim light, the WorldHeart core, a faceted glowing crystal heart in a heavy metal cradle, lowered onto geothermal vents feeding glowing fungal forests in total darkness on cables while avatar engineers steady it, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, low angle looking up past the cradle, deep cool grade with protected highlights, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A rogue planet: no star at all, geothermal heat and life that glows",
+"seed": 1982623024
+},
+"landing_verdant_elysian": {
+"beat": "landing",
+"direction": "elysian",
+"lora": "k2_sunlit-painterly-anime.safetensors",
+"lora_strength": 0.6,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, high afternoon sun, painterly cumulus, volumetric god rays, soft rim light, the WorldHeart core, a faceted glowing crystal heart in a heavy metal cradle, lowered onto terraced jungle plateaus and waterfalls over ruins swallowed by growth on cables while avatar engineers steady it, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, low angle looking up past the cradle, rich but grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 1839030399
+},
+"loadout_europa_toybox": {
+"beat": "loadout",
+"direction": "toybox",
+"lora": "k2_bold-clay-toy-render.safetensors",
+"lora_strength": 0.45,
+"place": "europa",
+"prompt": "pale cyan and bone white palette with rust-brown fracture lines, in-game screenshot from a third-person gameplay camera, clean bright key light, glossy vinyl highlights, crisp contact shadows, a character select screen: four blocky avatars on lit turntable podiums with cracked ice plains scored with pressure ridges and refrozen leads blurred far behind them, plain unlettered stat bars of solid colour beside each, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, frontal centred composition, shallow depth, saturated clean grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Europa: ice shell over a liquid ocean, rust-stained fractures",
+"seed": 682686062
+},
+"loadout_io_inkline": {
+"beat": "loadout",
+"direction": "inkline",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.95,
+"place": "io",
+"prompt": "sulphur yellow and black basalt palette, in-game screenshot from a third-person gameplay camera, hard directional sun, heavy ink contour lines, printed halftone shadow, a character select screen: four blocky avatars on lit turntable podiums with sulphur plains split by lava fountains and black basalt shelves blurred far behind them, plain unlettered stat bars of solid colour beside each, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, frontal centred composition, shallow depth, graphic high-contrast grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Io: tidally heated, the most volcanic body in the solar system",
+"seed": 1106840205
+},
+"loadout_verdant_elysian": {
+"beat": "loadout",
+"direction": "elysian",
+"lora": "k2_sunlit-painterly-anime.safetensors",
+"lora_strength": 0.6,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, high afternoon sun, painterly cumulus, volumetric god rays, soft rim light, a character select screen: four blocky avatars on lit turntable podiums with terraced jungle plateaus and waterfalls over ruins swallowed by growth blurred far behind them, plain unlettered stat bars of solid colour beside each, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, frontal centred composition, shallow depth, rich but grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 1802230556
+},
+"mining_carbon_vinyl": {
+"beat": "mining",
+"direction": "vinyl",
+"lora": "k2_vintage-plastic-toy.safetensors",
+"lora_strength": 0.5,
+"place": "carbon",
+"prompt": "graphite grey and prismatic white palette, in-game screenshot from a third-person gameplay camera, bright even key, saturated primary vinyl surfaces, hard contact shadow, a mine shaft descending into graphite plains studded with diamond outcrops throwing spectra, glowing ore veins in the walls, an avatar riding a rail cart down with a headlamp lit, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, down-the-shaft shot, the veins receding into dark, punchy toy-catalogue grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A carbon planet: graphite crust, diamond where the pressure allowed",
+"seed": 1352920412
+},
+"mining_io_retroanime": {
+"beat": "mining",
+"direction": "retroanime",
+"lora": "k2_official_retroanime.safetensors",
+"lora_strength": 0.65,
+"place": "io",
+"prompt": "sulphur yellow and black basalt palette, in-game screenshot from a third-person gameplay camera, flat cel light with hard shadow terminators, a mine shaft descending into sulphur plains split by lava fountains and black basalt shelves, glowing ore veins in the walls, an avatar riding a rail cart down with a headlamp lit, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, down-the-shaft shot, the veins receding into dark, retro anime colour grade with slight print warmth, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Io: tidally heated, the most volcanic body in the solar system",
+"seed": 1807752571
+},
+"mining_io_voidlight": {
+"beat": "mining",
+"direction": "voidlight",
+"lora": "k2_glowing-ember-fantasy.safetensors",
+"lora_strength": 0.7,
+"place": "io",
+"prompt": "sulphur yellow and black basalt palette, in-game screenshot from a third-person gameplay camera, lit from below by glowing cyan crystal, bioluminescent rim light, a mine shaft descending into sulphur plains split by lava fountains and black basalt shelves, glowing ore veins in the walls, an avatar riding a rail cart down with a headlamp lit, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, down-the-shaft shot, the veins receding into dark, deep cool grade with protected highlights, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Io: tidally heated, the most volcanic body in the solar system",
+"seed": 1317194211
+},
+"mining_rogue_cinematic": {
+"beat": "mining",
+"direction": "cinematic",
+"lora": "k2_misty-anime-cinematic.safetensors",
+"lora_strength": 0.6,
+"place": "rogue",
+"prompt": "black and bioluminescent teal palette, in-game screenshot from a third-person gameplay camera, backlit mist, long lens compression, shallow depth of field, a mine shaft descending into geothermal vents feeding glowing fungal forests in total darkness, glowing ore veins in the walls, an avatar riding a rail cart down with a headlamp lit, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, down-the-shaft shot, the veins receding into dark, filmic grade with lifted blacks, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A rogue planet: no star at all, geothermal heat and life that glows",
+"seed": 1851087186
+},
+"nightwatch_europa_ashen": {
+"beat": "nightwatch",
+"direction": "ashen",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.75,
+"place": "europa",
+"prompt": "pale cyan and bone white palette with rust-brown fracture lines, in-game screenshot from a third-person gameplay camera, low overcast broken by one shaft of pale sun, heavy atmospheric haze, hard rim light, a night watch on cracked ice plains scored with pressure ridges and refrozen leads, lantern light pooling on the ground, two avatar sentries silhouetted against the sky, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide low shot, the figures small against the horizon, desaturated grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Europa: ice shell over a liquid ocean, rust-stained fractures",
+"seed": 530564307
+},
+"nightwatch_rogue_voidlight": {
+"beat": "nightwatch",
+"direction": "voidlight",
+"lora": "k2_glowing-ember-fantasy.safetensors",
+"lora_strength": 0.7,
+"place": "rogue",
+"prompt": "black and bioluminescent teal palette, in-game screenshot from a third-person gameplay camera, lit from below by glowing cyan crystal, bioluminescent rim light, a night watch on geothermal vents feeding glowing fungal forests in total darkness, lantern light pooling on the ground, two avatar sentries silhouetted against the sky, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide low shot, the figures small against the horizon, deep cool grade with protected highlights, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A rogue planet: no star at all, geothermal heat and life that glows",
+"seed": 1520459216
+},
+"nightwatch_terminator_cinematic": {
+"beat": "nightwatch",
+"direction": "cinematic",
+"lora": "k2_misty-anime-cinematic.safetensors",
+"lora_strength": 0.6,
+"place": "terminator",
+"prompt": "copper and deep blue palette split along a terminator line, in-game screenshot from a third-person gameplay camera, backlit mist, long lens compression, shallow depth of field, a night watch on an eternal sunset band between a scorched day side and an ice night side, lantern light pooling on the ground, two avatar sentries silhouetted against the sky, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide low shot, the figures small against the horizon, filmic grade with lifted blacks, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A tidally locked world: all the weather lives on the day-night line",
+"seed": 485513058
+},
+"nightwatch_terminator_retroanime": {
+"beat": "nightwatch",
+"direction": "retroanime",
+"lora": "k2_official_retroanime.safetensors",
+"lora_strength": 0.65,
+"place": "terminator",
+"prompt": "copper and deep blue palette split along a terminator line, in-game screenshot from a third-person gameplay camera, flat cel light with hard shadow terminators, a night watch on an eternal sunset band between a scorched day side and an ice night side, lantern light pooling on the ground, two avatar sentries silhouetted against the sky, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide low shot, the figures small against the horizon, retro anime colour grade with slight print warmth, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A tidally locked world: all the weather lives on the day-night line",
+"seed": 1332091973
+},
+"nightwatch_venus_voidlight": {
+"beat": "nightwatch",
+"direction": "voidlight",
+"lora": "k2_glowing-ember-fantasy.safetensors",
+"lora_strength": 0.7,
+"place": "venus",
+"prompt": "sulphur gold and pearl grey palette, in-game screenshot from a third-person gameplay camera, lit from below by glowing cyan crystal, bioluminescent rim light, a night watch on tethered platforms floating above an unbroken cloud deck, lantern light pooling on the ground, two avatar sentries silhouetted against the sky, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide low shot, the figures small against the horizon, deep cool grade with protected highlights, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Venus: the habitable zone is the cloud deck at 50km, not the ground",
+"seed": 446737363
+},
+"obby_ocean_elysian": {
+"beat": "obby",
+"direction": "elysian",
+"lora": "k2_sunlit-painterly-anime.safetensors",
+"lora_strength": 0.6,
+"place": "ocean",
+"prompt": "turquoise and sand gold palette, in-game screenshot from a third-person gameplay camera, high afternoon sun, painterly cumulus, volumetric god rays, soft rim light, an obby parkour course of floating platforms strung across a floating archipelago of green islands over a global ocean, an avatar caught mid-leap between two of them, a checkpoint marker on the far platform, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, side-on shot, the gap between the platforms centred, rich but grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A global-ocean world: land exists only as an archipelago",
+"seed": 805779196
+},
+"obby_shattered_faceted": {
+"beat": "obby",
+"direction": "faceted",
+"lora": "k2_terracotta-lowpoly-miniature.safetensors",
+"lora_strength": 0.7,
+"place": "shattered",
+"prompt": "ash grey and ember orange palette, in-game screenshot from a third-person gameplay camera, hard low sun, flat faceted planes catching light, long raking shadows, an obby parkour course of floating platforms strung across the broken hemisphere of a cracked planet with continent shards adrift above it, an avatar caught mid-leap between two of them, a checkpoint marker on the far platform, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, side-on shot, the gap between the platforms centred, flat matte grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A world already lost: broken hemisphere, continents adrift",
+"seed": 2126481907
+},
+"obby_venus_toybox": {
+"beat": "obby",
+"direction": "toybox",
+"lora": "k2_bold-clay-toy-render.safetensors",
+"lora_strength": 0.45,
+"place": "venus",
+"prompt": "sulphur gold and pearl grey palette, in-game screenshot from a third-person gameplay camera, clean bright key light, glossy vinyl highlights, crisp contact shadows, an obby parkour course of floating platforms strung across tethered platforms floating above an unbroken cloud deck, an avatar caught mid-leap between two of them, a checkpoint marker on the far platform, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, side-on shot, the gap between the platforms centred, saturated clean grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Venus: the habitable zone is the cloud deck at 50km, not the ground",
+"seed": 106944153
+},
+"orbit_enceladus_earlycgi": {
+"beat": "orbit",
+"direction": "earlycgi",
+"lora": "k2_early-cgi-surreal-render.safetensors",
+"lora_strength": 0.6,
+"place": "enceladus",
+"prompt": "glacier white and pale blue palette, in-game screenshot from a third-person gameplay camera, flat ambient light with a hard sky gradient, early-2000s game-engine sheen, an orbital view of the whole planet with tiger-stripe fissures venting geyser plumes over fresh snow legible as continents far below, a thin ring of defence satellites, and a second planet beyond it, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, space shot, the planet limb curving across the frame, clean nostalgic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Enceladus: tiger-stripe fissures venting plumes into space",
+"seed": 978012317
+},
+"orbit_io_chrome": {
+"beat": "orbit",
+"direction": "chrome",
+"lora": "k2_chrome-iridescent-render.safetensors",
+"lora_strength": 0.6,
+"place": "io",
+"prompt": "sulphur yellow and black basalt palette, in-game screenshot from a third-person gameplay camera, hard specular key, polished chrome and iridescent film, anamorphic lens flare, an orbital view of the whole planet with sulphur plains split by lava fountains and black basalt shelves legible as continents far below, a thin ring of defence satellites, and a second planet beyond it, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, space shot, the planet limb curving across the frame, cool metallic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Io: tidally heated, the most volcanic body in the solar system",
+"seed": 957818127
+},
+"orbit_ocean_elysian": {
+"beat": "orbit",
+"direction": "elysian",
+"lora": "k2_sunlit-painterly-anime.safetensors",
+"lora_strength": 0.6,
+"place": "ocean",
+"prompt": "turquoise and sand gold palette, in-game screenshot from a third-person gameplay camera, high afternoon sun, painterly cumulus, volumetric god rays, soft rim light, an orbital view of the whole planet with a floating archipelago of green islands over a global ocean legible as continents far below, a thin ring of defence satellites, and a second planet beyond it, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, space shot, the planet limb curving across the frame, rich but grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A global-ocean world: land exists only as an archipelago",
+"seed": 1374264854
+},
+"orbit_ringmoon_cinematic": {
+"beat": "orbit",
+"direction": "cinematic",
+"lora": "k2_misty-anime-cinematic.safetensors",
+"lora_strength": 0.6,
+"place": "ringmoon",
+"prompt": "violet and pale gold palette, in-game screenshot from a third-person gameplay camera, backlit mist, long lens compression, shallow depth of field, an orbital view of the whole planet with dust plains crossed by the hard-edged shadow band of a ring legible as continents far below, a thin ring of defence satellites, and a second planet beyond it, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, space shot, the planet limb curving across the frame, filmic grade with lifted blacks, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A shepherd moon: the primary and its rings dominate the sky",
+"seed": 1823071501
+},
+"orbit_ringmoon_retroanime": {
+"beat": "orbit",
+"direction": "retroanime",
+"lora": "k2_official_retroanime.safetensors",
+"lora_strength": 0.65,
+"place": "ringmoon",
+"prompt": "violet and pale gold palette, in-game screenshot from a third-person gameplay camera, flat cel light with hard shadow terminators, an orbital view of the whole planet with dust plains crossed by the hard-edged shadow band of a ring legible as continents far below, a thin ring of defence satellites, and a second planet beyond it, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, space shot, the planet limb curving across the frame, retro anime colour grade with slight print warmth, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A shepherd moon: the primary and its rings dominate the sky",
+"seed": 472749144
+},
+"orbit_terminator_voidlight": {
+"beat": "orbit",
+"direction": "voidlight",
+"lora": "k2_glowing-ember-fantasy.safetensors",
+"lora_strength": 0.7,
+"place": "terminator",
+"prompt": "copper and deep blue palette split along a terminator line, in-game screenshot from a third-person gameplay camera, lit from below by glowing cyan crystal, bioluminescent rim light, an orbital view of the whole planet with an eternal sunset band between a scorched day side and an ice night side legible as continents far below, a thin ring of defence satellites, and a second planet beyond it, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, space shot, the planet limb curving across the frame, deep cool grade with protected highlights, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A tidally locked world: all the weather lives on the day-night line",
+"seed": 135703772
+},
+"petzone_enceladus_clayworld": {
+"beat": "petzone",
+"direction": "clayworld",
+"lora": "k2_miniature-diorama-figurine.safetensors",
+"lora_strength": 0.6,
+"place": "enceladus",
+"prompt": "glacier white and pale blue palette, in-game screenshot from a third-person gameplay camera, soft broad studio light, handmade clay surfaces with visible tool marks, a companion creature paddock built into tiger-stripe fissures venting geyser plumes over fresh snow, small blocky pet creatures trotting after avatars, a stable cut into the rock behind, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium shot at creature height, warm handmade grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Enceladus: tiger-stripe fissures venting plumes into space",
+"seed": 1283914999
+},
+"petzone_ocean_toybox": {
+"beat": "petzone",
+"direction": "toybox",
+"lora": "k2_bold-clay-toy-render.safetensors",
+"lora_strength": 0.45,
+"place": "ocean",
+"prompt": "turquoise and sand gold palette, in-game screenshot from a third-person gameplay camera, clean bright key light, glossy vinyl highlights, crisp contact shadows, a companion creature paddock built into a floating archipelago of green islands over a global ocean, small blocky pet creatures trotting after avatars, a stable cut into the rock behind, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium shot at creature height, saturated clean grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A global-ocean world: land exists only as an archipelago",
+"seed": 191867847
+},
+"petzone_verdant_elysian": {
+"beat": "petzone",
+"direction": "elysian",
+"lora": "k2_sunlit-painterly-anime.safetensors",
+"lora_strength": 0.6,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, high afternoon sun, painterly cumulus, volumetric god rays, soft rim light, a companion creature paddock built into terraced jungle plateaus and waterfalls over ruins swallowed by growth, small blocky pet creatures trotting after avatars, a stable cut into the rock behind, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium shot at creature height, rich but grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 1775249763
+},
+"procgen_carbon_faceted": {
+"beat": "procgen",
+"direction": "faceted",
+"lora": "k2_terracotta-lowpoly-miniature.safetensors",
+"lora_strength": 0.7,
+"place": "carbon",
+"prompt": "graphite grey and prismatic white palette, in-game screenshot from a third-person gameplay camera, hard low sun, flat faceted planes catching light, long raking shadows, a planet assembling itself out of floating terrain tiles in mid-air, half-formed graphite plains studded with diamond outcrops throwing spectra, seams of light where the tiles have not yet knitted together, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide cosmic shot, the unfinished edge toward camera, flat matte grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A carbon planet: graphite crust, diamond where the pressure allowed",
+"seed": 2036671274
+},
+"procgen_enceladus_earlycgi": {
+"beat": "procgen",
+"direction": "earlycgi",
+"lora": "k2_early-cgi-surreal-render.safetensors",
+"lora_strength": 0.6,
+"place": "enceladus",
+"prompt": "glacier white and pale blue palette, in-game screenshot from a third-person gameplay camera, flat ambient light with a hard sky gradient, early-2000s game-engine sheen, a planet assembling itself out of floating terrain tiles in mid-air, half-formed tiger-stripe fissures venting geyser plumes over fresh snow, seams of light where the tiles have not yet knitted together, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide cosmic shot, the unfinished edge toward camera, clean nostalgic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Enceladus: tiger-stripe fissures venting plumes into space",
+"seed": 1249074371
+},
+"procgen_ocean_chrome": {
+"beat": "procgen",
+"direction": "chrome",
+"lora": "k2_chrome-iridescent-render.safetensors",
+"lora_strength": 0.6,
+"place": "ocean",
+"prompt": "turquoise and sand gold palette, in-game screenshot from a third-person gameplay camera, hard specular key, polished chrome and iridescent film, anamorphic lens flare, a planet assembling itself out of floating terrain tiles in mid-air, half-formed a floating archipelago of green islands over a global ocean, seams of light where the tiles have not yet knitted together, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide cosmic shot, the unfinished edge toward camera, cool metallic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A global-ocean world: land exists only as an archipelago",
+"seed": 1463390243
+},
+"procgen_reddwarf_chrome": {
+"beat": "procgen",
+"direction": "chrome",
+"lora": "k2_chrome-iridescent-render.safetensors",
+"lora_strength": 0.6,
+"place": "reddwarf",
+"prompt": "deep crimson and umber palette, in-game screenshot from a third-person gameplay camera, hard specular key, polished chrome and iridescent film, anamorphic lens flare, a planet assembling itself out of floating terrain tiles in mid-air, half-formed low hardy scrub and wind-carved stone under permanent red light, seams of light where the tiles have not yet knitted together, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide cosmic shot, the unfinished edge toward camera, cool metallic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A TRAPPIST-1 class world: dim red primary, permanent long shadows",
+"seed": 484931786
+},
+"procgen_shattered_voidlight": {
+"beat": "procgen",
+"direction": "voidlight",
+"lora": "k2_glowing-ember-fantasy.safetensors",
+"lora_strength": 0.7,
+"place": "shattered",
+"prompt": "ash grey and ember orange palette, in-game screenshot from a third-person gameplay camera, lit from below by glowing cyan crystal, bioluminescent rim light, a planet assembling itself out of floating terrain tiles in mid-air, half-formed the broken hemisphere of a cracked planet with continent shards adrift above it, seams of light where the tiles have not yet knitted together, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide cosmic shot, the unfinished edge toward camera, deep cool grade with protected highlights, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A world already lost: broken hemisphere, continents adrift",
+"seed": 1175378895
+},
+"racing_mars_vinyl": {
+"beat": "racing",
+"direction": "vinyl",
+"lora": "k2_vintage-plastic-toy.safetensors",
+"lora_strength": 0.5,
+"place": "mars",
+"prompt": "rust red and dusty violet palette, in-game screenshot from a third-person gameplay camera, bright even key, saturated primary vinyl surfaces, hard contact shadow, a hover-kart race along a track cut into a layered sediment canyon four kilometres deep with dust devils on the floor, three avatars in karts fighting for a line through a banked turn, boost trails behind them, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, chase camera low and close behind the lead kart, punchy toy-catalogue grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 2061766098
+},
+"racing_ringmoon_chrome": {
+"beat": "racing",
+"direction": "chrome",
+"lora": "k2_chrome-iridescent-render.safetensors",
+"lora_strength": 0.6,
+"place": "ringmoon",
+"prompt": "violet and pale gold palette, in-game screenshot from a third-person gameplay camera, hard specular key, polished chrome and iridescent film, anamorphic lens flare, a hover-kart race along a track cut into dust plains crossed by the hard-edged shadow band of a ring, three avatars in karts fighting for a line through a banked turn, boost trails behind them, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, chase camera low and close behind the lead kart, cool metallic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A shepherd moon: the primary and its rings dominate the sky",
+"seed": 1557240302
+},
+"racing_titan_inkcel": {
+"beat": "racing",
+"direction": "inkcel",
+"lora": "k2_official_retroanime.safetensors + k2_bold-inked-superhero-comic.safetensors",
+"lora_strength": "0.5 / 0.85",
+"place": "titan",
+"prompt": "amber and ochre palette under a sunless orange haze, cel-shaded comic book videogame render, every form bounded by a thick black ink outline of even uniform weight, interior panel edges inked too, in-game screenshot from a third-person gameplay camera, hard low sun, flat cel fills with hard shadow terminators, a hover-kart race along a track cut into dunes of dark hydrocarbon sand around flat mirror-still methane lakes, three avatars in karts fighting for a line through a banked turn, boost trails behind them, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, smooth featureless rounded heads of plain unmarked plastic, avatars in differing bold team colours, cross-hatched ink hatching inside the shadows, faceted low-polygon rock, chase camera low and close behind the lead kart, high-contrast comic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Titan: thick orange haze, hydrocarbon dunes and methane lakes",
+"seed": 2014170223
+},
+"racing_titan_retroanime": {
+"beat": "racing",
+"direction": "retroanime",
+"lora": "k2_official_retroanime.safetensors",
+"lora_strength": 0.65,
+"place": "titan",
+"prompt": "amber and ochre palette under a sunless orange haze, in-game screenshot from a third-person gameplay camera, flat cel light with hard shadow terminators, a hover-kart race along a track cut into dunes of dark hydrocarbon sand around flat mirror-still methane lakes, three avatars in karts fighting for a line through a banked turn, boost trails behind them, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, chase camera low and close behind the lead kart, retro anime colour grade with slight print warmth, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Titan: thick orange haze, hydrocarbon dunes and methane lakes",
+"seed": 1551039975
+},
+"starmap_carbon_chrome": {
+"beat": "starmap",
+"direction": "chrome",
+"lora": "k2_chrome-iridescent-render.safetensors",
+"lora_strength": 0.6,
+"place": "carbon",
+"prompt": "graphite grey and prismatic white palette, in-game screenshot from a third-person gameplay camera, hard specular key, polished chrome and iridescent film, anamorphic lens flare, a holographic star chart table aboard a ship, a dozen planet globes floating above it as plain unlettered spheres of solid colour, an avatar commander reaching toward one, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium shot over the shoulder, interface glow on the avatar, cool metallic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A carbon planet: graphite crust, diamond where the pressure allowed",
+"seed": 1667038770
+},
+"starmap_ocean_elysian": {
+"beat": "starmap",
+"direction": "elysian",
+"lora": "k2_sunlit-painterly-anime.safetensors",
+"lora_strength": 0.6,
+"place": "ocean",
+"prompt": "turquoise and sand gold palette, in-game screenshot from a third-person gameplay camera, high afternoon sun, painterly cumulus, volumetric god rays, soft rim light, a holographic star chart table aboard a ship, a dozen planet globes floating above it as plain unlettered spheres of solid colour, an avatar commander reaching toward one, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium shot over the shoulder, interface glow on the avatar, rich but grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A global-ocean world: land exists only as an archipelago",
+"seed": 1589583640
+},
+"starmap_ringmoon_voidlight": {
+"beat": "starmap",
+"direction": "voidlight",
+"lora": "k2_glowing-ember-fantasy.safetensors",
+"lora_strength": 0.7,
+"place": "ringmoon",
+"prompt": "violet and pale gold palette, in-game screenshot from a third-person gameplay camera, lit from below by glowing cyan crystal, bioluminescent rim light, a holographic star chart table aboard a ship, a dozen planet globes floating above it as plain unlettered spheres of solid colour, an avatar commander reaching toward one, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium shot over the shoulder, interface glow on the avatar, deep cool grade with protected highlights, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A shepherd moon: the primary and its rings dominate the sky",
+"seed": 1219388908
+},
+"survey_enceladus_cinematic": {
+"beat": "survey",
+"direction": "cinematic",
+"lora": "k2_misty-anime-cinematic.safetensors",
+"lora_strength": 0.6,
+"place": "enceladus",
+"prompt": "glacier white and pale blue palette, in-game screenshot from a third-person gameplay camera, backlit mist, long lens compression, shallow depth of field, an avatar explorer traversing tiger-stripe fissures venting geyser plumes over fresh snow, a scan pulse ring expanding outward across the ground ahead, a black sky with a ring system seen edge-on, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, third person from behind, wide, the horizon high in frame, filmic grade with lifted blacks, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Enceladus: tiger-stripe fissures venting plumes into space",
+"seed": 733696686
+},
+"survey_europa_faceted": {
+"beat": "survey",
+"direction": "faceted",
+"lora": "k2_terracotta-lowpoly-miniature.safetensors",
+"lora_strength": 0.7,
+"place": "europa",
+"prompt": "pale cyan and bone white palette with rust-brown fracture lines, in-game screenshot from a third-person gameplay camera, hard low sun, flat faceted planes catching light, long raking shadows, an avatar explorer traversing cracked ice plains scored with pressure ridges and refrozen leads, a scan pulse ring expanding outward across the ground ahead, a black star-field sky with a thin blue limb of atmosphere, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, third person from behind, wide, the horizon high in frame, flat matte grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Europa: ice shell over a liquid ocean, rust-stained fractures",
+"seed": 1620977147
+},
+"survey_reddwarf_inkcel": {
+"beat": "survey",
+"direction": "inkcel",
+"lora": "k2_official_retroanime.safetensors + k2_bold-inked-superhero-comic.safetensors",
+"lora_strength": "0.5 / 0.85",
+"place": "reddwarf",
+"prompt": "deep crimson and umber palette, cel-shaded comic book videogame render, every form bounded by a thick black ink outline of even uniform weight, interior panel edges inked too, in-game screenshot from a third-person gameplay camera, hard low sun, flat cel fills with hard shadow terminators, an avatar explorer traversing low hardy scrub and wind-carved stone under permanent red light, a scan pulse ring expanding outward across the ground ahead, a large dim red sun filling a quarter of the sky, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, smooth featureless rounded heads of plain unmarked plastic, avatars in differing bold team colours, cross-hatched ink hatching inside the shadows, faceted low-polygon rock, third person from behind, wide, the horizon high in frame, high-contrast comic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A TRAPPIST-1 class world: dim red primary, permanent long shadows",
+"seed": 325146894
+},
+"survey_reddwarf_retroanime": {
+"beat": "survey",
+"direction": "retroanime",
+"lora": "k2_official_retroanime.safetensors",
+"lora_strength": 0.65,
+"place": "reddwarf",
+"prompt": "deep crimson and umber palette, in-game screenshot from a third-person gameplay camera, flat cel light with hard shadow terminators, an avatar explorer traversing low hardy scrub and wind-carved stone under permanent red light, a scan pulse ring expanding outward across the ground ahead, a large dim red sun filling a quarter of the sky, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, third person from behind, wide, the horizon high in frame, retro anime colour grade with slight print warmth, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A TRAPPIST-1 class world: dim red primary, permanent long shadows",
+"seed": 1583665446
+},
+"survey_ringmoon_clayworld": {
+"beat": "survey",
+"direction": "clayworld",
+"lora": "k2_miniature-diorama-figurine.safetensors",
+"lora_strength": 0.6,
+"place": "ringmoon",
+"prompt": "violet and pale gold palette, in-game screenshot from a third-person gameplay camera, soft broad studio light, handmade clay surfaces with visible tool marks, an avatar explorer traversing dust plains crossed by the hard-edged shadow band of a ring, a scan pulse ring expanding outward across the ground ahead, a banded gas giant filling half the sky with its ring cutting across, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, third person from behind, wide, the horizon high in frame, warm handmade grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A shepherd moon: the primary and its rings dominate the sky",
+"seed": 973574335
+},
+"survey_shattered_clayworld": {
+"beat": "survey",
+"direction": "clayworld",
+"lora": "k2_miniature-diorama-figurine.safetensors",
+"lora_strength": 0.6,
+"place": "shattered",
+"prompt": "ash grey and ember orange palette, in-game screenshot from a third-person gameplay camera, soft broad studio light, handmade clay surfaces with visible tool marks, an avatar explorer traversing the broken hemisphere of a cracked planet with continent shards adrift above it, a scan pulse ring expanding outward across the ground ahead, a debris ring overhead raining slow meteors, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, third person from behind, wide, the horizon high in frame, warm handmade grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A world already lost: broken hemisphere, continents adrift",
+"seed": 775311700
+},
+"survey_titan_ashen": {
+"beat": "survey",
+"direction": "ashen",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.75,
+"place": "titan",
+"prompt": "amber and ochre palette under a sunless orange haze, in-game screenshot from a third-person gameplay camera, low overcast broken by one shaft of pale sun, heavy atmospheric haze, hard rim light, an avatar explorer traversing dunes of dark hydrocarbon sand around flat mirror-still methane lakes, a scan pulse ring expanding outward across the ground ahead, a thick orange haze ceiling with no visible sun, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, third person from behind, wide, the horizon high in frame, desaturated grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Titan: thick orange haze, hydrocarbon dunes and methane lakes",
+"seed": 120996390
+},
+"survey_verdant_elysian": {
+"beat": "survey",
+"direction": "elysian",
+"lora": "k2_sunlit-painterly-anime.safetensors",
+"lora_strength": 0.6,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, high afternoon sun, painterly cumulus, volumetric god rays, soft rim light, an avatar explorer traversing terraced jungle plateaus and waterfalls over ruins swallowed by growth, a scan pulse ring expanding outward across the ground ahead, painterly cumulus pierced by volumetric god rays, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, third person from behind, wide, the horizon high in frame, rich but grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 1928232528
+},
+"survival_europa_earlycgi": {
+"beat": "survival",
+"direction": "earlycgi",
+"lora": "k2_early-cgi-surreal-render.safetensors",
+"lora_strength": 0.6,
+"place": "europa",
+"prompt": "pale cyan and bone white palette with rust-brown fracture lines, in-game screenshot from a third-person gameplay camera, flat ambient light with a hard sky gradient, early-2000s game-engine sheen, a survival camp on cracked ice plains scored with pressure ridges and refrozen leads at dusk, a campfire, crafted palisade walls, avatars hauling gathered resources in through the gate, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium wide shot from outside the palisade, clean nostalgic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Europa: ice shell over a liquid ocean, rust-stained fractures",
+"seed": 1929326911
+},
+"survival_reddwarf_ashen": {
+"beat": "survival",
+"direction": "ashen",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.75,
+"place": "reddwarf",
+"prompt": "deep crimson and umber palette, in-game screenshot from a third-person gameplay camera, low overcast broken by one shaft of pale sun, heavy atmospheric haze, hard rim light, a survival camp on low hardy scrub and wind-carved stone under permanent red light at dusk, a campfire, crafted palisade walls, avatars hauling gathered resources in through the gate, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium wide shot from outside the palisade, desaturated grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A TRAPPIST-1 class world: dim red primary, permanent long shadows",
+"seed": 388275757
+},
+"survival_verdant_clayworld": {
+"beat": "survival",
+"direction": "clayworld",
+"lora": "k2_miniature-diorama-figurine.safetensors",
+"lora_strength": 0.6,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, soft broad studio light, handmade clay surfaces with visible tool marks, a survival camp on terraced jungle plateaus and waterfalls over ruins swallowed by growth at dusk, a campfire, crafted palisade walls, avatars hauling gathered resources in through the gate, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, medium wide shot from outside the palisade, warm handmade grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 1510777592
+},
+"swarm_carbon_faceted": {
+"beat": "swarm",
+"direction": "faceted",
+"lora": "k2_terracotta-lowpoly-miniature.safetensors",
+"lora_strength": 0.7,
+"place": "carbon",
+"prompt": "graphite grey and prismatic white palette, in-game screenshot from a third-person gameplay camera, hard low sun, flat faceted planes catching light, long raking shadows, a mass of insectoid invaders pouring over graphite plains studded with diamond outcrops throwing spectra in a dense column, tracer fire cutting lanes through them, bodies tumbling, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, high angle looking down the length of the column, flat matte grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A carbon planet: graphite crust, diamond where the pressure allowed",
+"seed": 168949064
+},
+"swarm_enceladus_retroanime": {
+"beat": "swarm",
+"direction": "retroanime",
+"lora": "k2_official_retroanime.safetensors",
+"lora_strength": 0.65,
+"place": "enceladus",
+"prompt": "glacier white and pale blue palette, in-game screenshot from a third-person gameplay camera, flat cel light with hard shadow terminators, a mass of insectoid invaders pouring over tiger-stripe fissures venting geyser plumes over fresh snow in a dense column, tracer fire cutting lanes through them, bodies tumbling, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, high angle looking down the length of the column, retro anime colour grade with slight print warmth, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Enceladus: tiger-stripe fissures venting plumes into space",
+"seed": 1190644465
+},
+"swarm_mars_ashen": {
+"beat": "swarm",
+"direction": "ashen",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.75,
+"place": "mars",
+"prompt": "rust red and dusty violet palette, in-game screenshot from a third-person gameplay camera, low overcast broken by one shaft of pale sun, heavy atmospheric haze, hard rim light, a mass of insectoid invaders pouring over a layered sediment canyon four kilometres deep with dust devils on the floor in a dense column, tracer fire cutting lanes through them, bodies tumbling, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, high angle looking down the length of the column, desaturated grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 878839937
+},
+"swarm_mars_inkcel": {
+"beat": "swarm",
+"direction": "inkcel",
+"lora": "k2_official_retroanime.safetensors + k2_bold-inked-superhero-comic.safetensors",
+"lora_strength": "0.5 / 0.85",
+"place": "mars",
+"prompt": "rust red and dusty violet palette, cel-shaded comic book videogame render, every form bounded by a thick black ink outline of even uniform weight, interior panel edges inked too, in-game screenshot from a third-person gameplay camera, hard low sun, flat cel fills with hard shadow terminators, a mass of insectoid invaders pouring over a layered sediment canyon four kilometres deep with dust devils on the floor in a dense column, tracer fire cutting lanes through them, bodies tumbling, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, smooth featureless rounded heads of plain unmarked plastic, avatars in differing bold team colours, cross-hatched ink hatching inside the shadows, faceted low-polygon rock, high angle looking down the length of the column, high-contrast comic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 393720490
+},
+"swarm_titan_inkline": {
+"beat": "swarm",
+"direction": "inkline",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.95,
+"place": "titan",
+"prompt": "amber and ochre palette under a sunless orange haze, in-game screenshot from a third-person gameplay camera, hard directional sun, heavy ink contour lines, printed halftone shadow, a mass of insectoid invaders pouring over dunes of dark hydrocarbon sand around flat mirror-still methane lakes in a dense column, tracer fire cutting lanes through them, bodies tumbling, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, high angle looking down the length of the column, graphic high-contrast grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Titan: thick orange haze, hydrocarbon dunes and methane lakes",
+"seed": 303284031
+},
+"swarm_verdant_retroanime": {
+"beat": "swarm",
+"direction": "retroanime",
+"lora": "k2_official_retroanime.safetensors",
+"lora_strength": 0.65,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, flat cel light with hard shadow terminators, a mass of insectoid invaders pouring over terraced jungle plateaus and waterfalls over ruins swallowed by growth in a dense column, tracer fire cutting lanes through them, bodies tumbling, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, high angle looking down the length of the column, retro anime colour grade with slight print warmth, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 935641381
+},
+"towerline_carbon_chrome": {
+"beat": "towerline",
+"direction": "chrome",
+"lora": "k2_chrome-iridescent-render.safetensors",
+"lora_strength": 0.6,
+"place": "carbon",
+"prompt": "graphite grey and prismatic white palette, in-game screenshot from a third-person gameplay camera, hard specular key, polished chrome and iridescent film, anamorphic lens flare, three defence towers of clearly different silhouettes spaced along a ridge of graphite plains studded with diamond outcrops throwing spectra, their firing arcs drawn as faint translucent circles on the ground, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide three-quarter view, cool metallic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A carbon planet: graphite crust, diamond where the pressure allowed",
+"seed": 403905551
+},
+"towerline_io_faceted": {
+"beat": "towerline",
+"direction": "faceted",
+"lora": "k2_terracotta-lowpoly-miniature.safetensors",
+"lora_strength": 0.7,
+"place": "io",
+"prompt": "sulphur yellow and black basalt palette, in-game screenshot from a third-person gameplay camera, hard low sun, flat faceted planes catching light, long raking shadows, three defence towers of clearly different silhouettes spaced along a ridge of sulphur plains split by lava fountains and black basalt shelves, their firing arcs drawn as faint translucent circles on the ground, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide three-quarter view, flat matte grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Io: tidally heated, the most volcanic body in the solar system",
+"seed": 2041658148
+},
+"towerline_mars_ashen": {
+"beat": "towerline",
+"direction": "ashen",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.75,
+"place": "mars",
+"prompt": "rust red and dusty violet palette, in-game screenshot from a third-person gameplay camera, low overcast broken by one shaft of pale sun, heavy atmospheric haze, hard rim light, three defence towers of clearly different silhouettes spaced along a ridge of a layered sediment canyon four kilometres deep with dust devils on the floor, their firing arcs drawn as faint translucent circles on the ground, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide three-quarter view, desaturated grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 1713734280
+},
+"towerline_reddwarf_vinyl": {
+"beat": "towerline",
+"direction": "vinyl",
+"lora": "k2_vintage-plastic-toy.safetensors",
+"lora_strength": 0.5,
+"place": "reddwarf",
+"prompt": "deep crimson and umber palette, in-game screenshot from a third-person gameplay camera, bright even key, saturated primary vinyl surfaces, hard contact shadow, three defence towers of clearly different silhouettes spaced along a ridge of low hardy scrub and wind-carved stone under permanent red light, their firing arcs drawn as faint translucent circles on the ground, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide three-quarter view, punchy toy-catalogue grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A TRAPPIST-1 class world: dim red primary, permanent long shadows",
+"seed": 907527387
+},
+"towerline_terminator_cinematic": {
+"beat": "towerline",
+"direction": "cinematic",
+"lora": "k2_misty-anime-cinematic.safetensors",
+"lora_strength": 0.6,
+"place": "terminator",
+"prompt": "copper and deep blue palette split along a terminator line, in-game screenshot from a third-person gameplay camera, backlit mist, long lens compression, shallow depth of field, three defence towers of clearly different silhouettes spaced along a ridge of an eternal sunset band between a scorched day side and an ice night side, their firing arcs drawn as faint translucent circles on the ground, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide three-quarter view, filmic grade with lifted blacks, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A tidally locked world: all the weather lives on the day-night line",
+"seed": 1393446382
+},
+"towerline_verdant_ashen": {
+"beat": "towerline",
+"direction": "ashen",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.75,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, low overcast broken by one shaft of pale sun, heavy atmospheric haze, hard rim light, three defence towers of clearly different silhouettes spaced along a ridge of terraced jungle plateaus and waterfalls over ruins swallowed by growth, their firing arcs drawn as faint translucent circles on the ground, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide three-quarter view, desaturated grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 71232319
+},
+"towerline_verdant_chrome": {
+"beat": "towerline",
+"direction": "chrome",
+"lora": "k2_chrome-iridescent-render.safetensors",
+"lora_strength": 0.6,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, hard specular key, polished chrome and iridescent film, anamorphic lens flare, three defence towers of clearly different silhouettes spaced along a ridge of terraced jungle plateaus and waterfalls over ruins swallowed by growth, their firing arcs drawn as faint translucent circles on the ground, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide three-quarter view, cool metallic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 161358942
+},
+"towerline_verdant_cinematic": {
+"beat": "towerline",
+"direction": "cinematic",
+"lora": "k2_misty-anime-cinematic.safetensors",
+"lora_strength": 0.6,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, backlit mist, long lens compression, shallow depth of field, three defence towers of clearly different silhouettes spaced along a ridge of terraced jungle plateaus and waterfalls over ruins swallowed by growth, their firing arcs drawn as faint translucent circles on the ground, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide three-quarter view, filmic grade with lifted blacks, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 1337995177
+},
+"towerline_verdant_clayworld": {
+"beat": "towerline",
+"direction": "clayworld",
+"lora": "k2_miniature-diorama-figurine.safetensors",
+"lora_strength": 0.6,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, soft broad studio light, handmade clay surfaces with visible tool marks, three defence towers of clearly different silhouettes spaced along a ridge of terraced jungle plateaus and waterfalls over ruins swallowed by growth, their firing arcs drawn as faint translucent circles on the ground, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide three-quarter view, warm handmade grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 1302897483
+},
+"towerline_verdant_earlycgi": {
+"beat": "towerline",
+"direction": "earlycgi",
+"lora": "k2_early-cgi-surreal-render.safetensors",
+"lora_strength": 0.6,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, flat ambient light with a hard sky gradient, early-2000s game-engine sheen, three defence towers of clearly different silhouettes spaced along a ridge of terraced jungle plateaus and waterfalls over ruins swallowed by growth, their firing arcs drawn as faint translucent circles on the ground, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide three-quarter view, clean nostalgic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 324453812
+},
+"towerline_verdant_elysian": {
+"beat": "towerline",
+"direction": "elysian",
+"lora": "k2_sunlit-painterly-anime.safetensors",
+"lora_strength": 0.6,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, high afternoon sun, painterly cumulus, volumetric god rays, soft rim light, three defence towers of clearly different silhouettes spaced along a ridge of terraced jungle plateaus and waterfalls over ruins swallowed by growth, their firing arcs drawn as faint translucent circles on the ground, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide three-quarter view, rich but grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 312399651
+},
+"towerline_verdant_faceted": {
+"beat": "towerline",
+"direction": "faceted",
+"lora": "k2_terracotta-lowpoly-miniature.safetensors",
+"lora_strength": 0.7,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, hard low sun, flat faceted planes catching light, long raking shadows, three defence towers of clearly different silhouettes spaced along a ridge of terraced jungle plateaus and waterfalls over ruins swallowed by growth, their firing arcs drawn as faint translucent circles on the ground, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide three-quarter view, flat matte grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 920948394
+},
+"towerline_verdant_inkcel": {
+"beat": "towerline",
+"direction": "inkcel",
+"lora": "k2_official_retroanime.safetensors + k2_bold-inked-superhero-comic.safetensors",
+"lora_strength": "0.5 / 0.85",
+"place": "verdant",
+"prompt": "jade green and warm gold palette, cel-shaded comic book videogame render, every form bounded by a thick black ink outline of even uniform weight, interior panel edges inked too, in-game screenshot from a third-person gameplay camera, hard low sun, flat cel fills with hard shadow terminators, three defence towers of clearly different silhouettes spaced along a ridge of terraced jungle plateaus and waterfalls over ruins swallowed by growth, their firing arcs drawn as faint translucent circles on the ground, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, smooth featureless rounded heads of plain unmarked plastic, avatars in differing bold team colours, cross-hatched ink hatching inside the shadows, faceted low-polygon rock, wide three-quarter view, high-contrast comic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 1569960512
+},
+"towerline_verdant_inkline": {
+"beat": "towerline",
+"direction": "inkline",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.95,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, hard directional sun, heavy ink contour lines, printed halftone shadow, three defence towers of clearly different silhouettes spaced along a ridge of terraced jungle plateaus and waterfalls over ruins swallowed by growth, their firing arcs drawn as faint translucent circles on the ground, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide three-quarter view, graphic high-contrast grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 2035388834
+},
+"towerline_verdant_retroanime": {
+"beat": "towerline",
+"direction": "retroanime",
+"lora": "k2_official_retroanime.safetensors",
+"lora_strength": 0.65,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, flat cel light with hard shadow terminators, three defence towers of clearly different silhouettes spaced along a ridge of terraced jungle plateaus and waterfalls over ruins swallowed by growth, their firing arcs drawn as faint translucent circles on the ground, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide three-quarter view, retro anime colour grade with slight print warmth, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 930338476
+},
+"towerline_verdant_toybox": {
+"beat": "towerline",
+"direction": "toybox",
+"lora": "k2_bold-clay-toy-render.safetensors",
+"lora_strength": 0.45,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, clean bright key light, glossy vinyl highlights, crisp contact shadows, three defence towers of clearly different silhouettes spaced along a ridge of terraced jungle plateaus and waterfalls over ruins swallowed by growth, their firing arcs drawn as faint translucent circles on the ground, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide three-quarter view, saturated clean grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 1038270557
+},
+"towerline_verdant_vinyl": {
+"beat": "towerline",
+"direction": "vinyl",
+"lora": "k2_vintage-plastic-toy.safetensors",
+"lora_strength": 0.5,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, bright even key, saturated primary vinyl surfaces, hard contact shadow, three defence towers of clearly different silhouettes spaced along a ridge of terraced jungle plateaus and waterfalls over ruins swallowed by growth, their firing arcs drawn as faint translucent circles on the ground, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide three-quarter view, punchy toy-catalogue grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 919091452
+},
+"towerline_verdant_voidlight": {
+"beat": "towerline",
+"direction": "voidlight",
+"lora": "k2_glowing-ember-fantasy.safetensors",
+"lora_strength": 0.7,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, lit from below by glowing cyan crystal, bioluminescent rim light, three defence towers of clearly different silhouettes spaced along a ridge of terraced jungle plateaus and waterfalls over ruins swallowed by growth, their firing arcs drawn as faint translucent circles on the ground, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide three-quarter view, deep cool grade with protected highlights, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 1114764834
+},
+"traverse_carbon_earlycgi": {
+"beat": "traverse",
+"direction": "earlycgi",
+"lora": "k2_early-cgi-surreal-render.safetensors",
+"lora_strength": 0.6,
+"place": "carbon",
+"prompt": "graphite grey and prismatic white palette, in-game screenshot from a third-person gameplay camera, flat ambient light with a hard sky gradient, early-2000s game-engine sheen, avatars crossing a rope-and-plank bridge strung between two floating shards of graphite plains studded with diamond outcrops throwing spectra, a long drop below them, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, side-on wide shot, the bridge cutting the frame diagonally, clean nostalgic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A carbon planet: graphite crust, diamond where the pressure allowed",
+"seed": 842959518
+},
+"traverse_ocean_elysian": {
+"beat": "traverse",
+"direction": "elysian",
+"lora": "k2_sunlit-painterly-anime.safetensors",
+"lora_strength": 0.6,
+"place": "ocean",
+"prompt": "turquoise and sand gold palette, in-game screenshot from a third-person gameplay camera, high afternoon sun, painterly cumulus, volumetric god rays, soft rim light, avatars crossing a rope-and-plank bridge strung between two floating shards of a floating archipelago of green islands over a global ocean, a long drop below them, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, side-on wide shot, the bridge cutting the frame diagonally, rich but grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A global-ocean world: land exists only as an archipelago",
+"seed": 30496994
+},
+"traverse_rogue_voidlight": {
+"beat": "traverse",
+"direction": "voidlight",
+"lora": "k2_glowing-ember-fantasy.safetensors",
+"lora_strength": 0.7,
+"place": "rogue",
+"prompt": "black and bioluminescent teal palette, in-game screenshot from a third-person gameplay camera, lit from below by glowing cyan crystal, bioluminescent rim light, avatars crossing a rope-and-plank bridge strung between two floating shards of geothermal vents feeding glowing fungal forests in total darkness, a long drop below them, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, side-on wide shot, the bridge cutting the frame diagonally, deep cool grade with protected highlights, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A rogue planet: no star at all, geothermal heat and life that glows",
+"seed": 1809912079
+},
+"traverse_shattered_faceted": {
+"beat": "traverse",
+"direction": "faceted",
+"lora": "k2_terracotta-lowpoly-miniature.safetensors",
+"lora_strength": 0.7,
+"place": "shattered",
+"prompt": "ash grey and ember orange palette, in-game screenshot from a third-person gameplay camera, hard low sun, flat faceted planes catching light, long raking shadows, avatars crossing a rope-and-plank bridge strung between two floating shards of the broken hemisphere of a cracked planet with continent shards adrift above it, a long drop below them, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, side-on wide shot, the bridge cutting the frame diagonally, flat matte grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A world already lost: broken hemisphere, continents adrift",
+"seed": 983009173
+},
+"traverse_shattered_retroanime": {
+"beat": "traverse",
+"direction": "retroanime",
+"lora": "k2_official_retroanime.safetensors",
+"lora_strength": 0.65,
+"place": "shattered",
+"prompt": "ash grey and ember orange palette, in-game screenshot from a third-person gameplay camera, flat cel light with hard shadow terminators, avatars crossing a rope-and-plank bridge strung between two floating shards of the broken hemisphere of a cracked planet with continent shards adrift above it, a long drop below them, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, side-on wide shot, the bridge cutting the frame diagonally, retro anime colour grade with slight print warmth, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A world already lost: broken hemisphere, continents adrift",
+"seed": 1075562325
+},
+"traverse_venus_toybox": {
+"beat": "traverse",
+"direction": "toybox",
+"lora": "k2_bold-clay-toy-render.safetensors",
+"lora_strength": 0.45,
+"place": "venus",
+"prompt": "sulphur gold and pearl grey palette, in-game screenshot from a third-person gameplay camera, clean bright key light, glossy vinyl highlights, crisp contact shadows, avatars crossing a rope-and-plank bridge strung between two floating shards of tethered platforms floating above an unbroken cloud deck, a long drop below them, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, side-on wide shot, the bridge cutting the frame diagonally, saturated clean grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Venus: the habitable zone is the cloud deck at 50km, not the ground",
+"seed": 1212985903
+},
+"tycoon_carbon_chrome": {
+"beat": "tycoon",
+"direction": "chrome",
+"lora": "k2_chrome-iridescent-render.safetensors",
+"lora_strength": 0.6,
+"place": "carbon",
+"prompt": "graphite grey and prismatic white palette, in-game screenshot from a third-person gameplay camera, hard specular key, polished chrome and iridescent film, anamorphic lens flare, a tycoon conveyor line built across graphite plains studded with diamond outcrops throwing spectra, ore buckets riding the belt into a smelter, plain unlettered counter tiles of solid colour mounted above the line, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, three-quarter shot following the belt into depth, cool metallic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A carbon planet: graphite crust, diamond where the pressure allowed",
+"seed": 760335854
+},
+"tycoon_io_earlycgi": {
+"beat": "tycoon",
+"direction": "earlycgi",
+"lora": "k2_early-cgi-surreal-render.safetensors",
+"lora_strength": 0.6,
+"place": "io",
+"prompt": "sulphur yellow and black basalt palette, in-game screenshot from a third-person gameplay camera, flat ambient light with a hard sky gradient, early-2000s game-engine sheen, a tycoon conveyor line built across sulphur plains split by lava fountains and black basalt shelves, ore buckets riding the belt into a smelter, plain unlettered counter tiles of solid colour mounted above the line, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, three-quarter shot following the belt into depth, clean nostalgic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Io: tidally heated, the most volcanic body in the solar system",
+"seed": 1213021267
+},
+"tycoon_mars_vinyl": {
+"beat": "tycoon",
+"direction": "vinyl",
+"lora": "k2_vintage-plastic-toy.safetensors",
+"lora_strength": 0.5,
+"place": "mars",
+"prompt": "rust red and dusty violet palette, in-game screenshot from a third-person gameplay camera, bright even key, saturated primary vinyl surfaces, hard contact shadow, a tycoon conveyor line built across a layered sediment canyon four kilometres deep with dust devils on the floor, ore buckets riding the belt into a smelter, plain unlettered counter tiles of solid colour mounted above the line, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, three-quarter shot following the belt into depth, punchy toy-catalogue grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 148677580
+},
+"victory_carbon_chrome": {
+"beat": "victory",
+"direction": "chrome",
+"lora": "k2_chrome-iridescent-render.safetensors",
+"lora_strength": 0.6,
+"place": "carbon",
+"prompt": "graphite grey and prismatic white palette, in-game screenshot from a third-person gameplay camera, hard specular key, polished chrome and iridescent film, anamorphic lens flare, planet secured: the WorldHeart core blazing above a rebuilt emplacement on graphite plains studded with diamond outcrops throwing spectra, avatars gathered below it, a dropship lifting away, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide heroic shot from a low camera, cool metallic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A carbon planet: graphite crust, diamond where the pressure allowed",
+"seed": 1018891210
+},
+"victory_io_earlycgi": {
+"beat": "victory",
+"direction": "earlycgi",
+"lora": "k2_early-cgi-surreal-render.safetensors",
+"lora_strength": 0.6,
+"place": "io",
+"prompt": "sulphur yellow and black basalt palette, in-game screenshot from a third-person gameplay camera, flat ambient light with a hard sky gradient, early-2000s game-engine sheen, planet secured: the WorldHeart core blazing above a rebuilt emplacement on sulphur plains split by lava fountains and black basalt shelves, avatars gathered below it, a dropship lifting away, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide heroic shot from a low camera, clean nostalgic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Io: tidally heated, the most volcanic body in the solar system",
+"seed": 1434426039
+},
+"victory_ocean_toybox": {
+"beat": "victory",
+"direction": "toybox",
+"lora": "k2_bold-clay-toy-render.safetensors",
+"lora_strength": 0.45,
+"place": "ocean",
+"prompt": "turquoise and sand gold palette, in-game screenshot from a third-person gameplay camera, clean bright key light, glossy vinyl highlights, crisp contact shadows, planet secured: the WorldHeart core blazing above a rebuilt emplacement on a floating archipelago of green islands over a global ocean, avatars gathered below it, a dropship lifting away, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide heroic shot from a low camera, saturated clean grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A global-ocean world: land exists only as an archipelago",
+"seed": 246492196
+},
+"victory_ringmoon_vinyl": {
+"beat": "victory",
+"direction": "vinyl",
+"lora": "k2_vintage-plastic-toy.safetensors",
+"lora_strength": 0.5,
+"place": "ringmoon",
+"prompt": "violet and pale gold palette, in-game screenshot from a third-person gameplay camera, bright even key, saturated primary vinyl surfaces, hard contact shadow, planet secured: the WorldHeart core blazing above a rebuilt emplacement on dust plains crossed by the hard-edged shadow band of a ring, avatars gathered below it, a dropship lifting away, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide heroic shot from a low camera, punchy toy-catalogue grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A shepherd moon: the primary and its rings dominate the sky",
+"seed": 703094722
+},
+"victory_terminator_retroanime": {
+"beat": "victory",
+"direction": "retroanime",
+"lora": "k2_official_retroanime.safetensors",
+"lora_strength": 0.65,
+"place": "terminator",
+"prompt": "copper and deep blue palette split along a terminator line, in-game screenshot from a third-person gameplay camera, flat cel light with hard shadow terminators, planet secured: the WorldHeart core blazing above a rebuilt emplacement on an eternal sunset band between a scorched day side and an ice night side, avatars gathered below it, a dropship lifting away, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide heroic shot from a low camera, retro anime colour grade with slight print warmth, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A tidally locked world: all the weather lives on the day-night line",
+"seed": 659439196
+},
+"victory_verdant_elysian": {
+"beat": "victory",
+"direction": "elysian",
+"lora": "k2_sunlit-painterly-anime.safetensors",
+"lora_strength": 0.6,
+"place": "verdant",
+"prompt": "jade green and warm gold palette, in-game screenshot from a third-person gameplay camera, high afternoon sun, painterly cumulus, volumetric god rays, soft rim light, planet secured: the WorldHeart core blazing above a rebuilt emplacement on terraced jungle plateaus and waterfalls over ruins swallowed by growth, avatars gathered below it, a dropship lifting away, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide heroic shot from a low camera, rich but grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 880188338
+},
+"victory_verdant_inkcel": {
+"beat": "victory",
+"direction": "inkcel",
+"lora": "k2_official_retroanime.safetensors + k2_bold-inked-superhero-comic.safetensors",
+"lora_strength": "0.5 / 0.85",
+"place": "verdant",
+"prompt": "jade green and warm gold palette, cel-shaded comic book videogame render, every form bounded by a thick black ink outline of even uniform weight, interior panel edges inked too, in-game screenshot from a third-person gameplay camera, hard low sun, flat cel fills with hard shadow terminators, planet secured: the WorldHeart core blazing above a rebuilt emplacement on terraced jungle plateaus and waterfalls over ruins swallowed by growth, avatars gathered below it, a dropship lifting away, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, smooth featureless rounded heads of plain unmarked plastic, avatars in differing bold team colours, cross-hatched ink hatching inside the shadows, faceted low-polygon rock, wide heroic shot from a low camera, high-contrast comic grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A runaway-biosphere world: growth has eaten the architecture",
+"seed": 1964053699
+},
+"waveincoming_enceladus_vinyl": {
+"beat": "waveincoming",
+"direction": "vinyl",
+"lora": "k2_vintage-plastic-toy.safetensors",
+"lora_strength": 0.5,
+"place": "enceladus",
+"prompt": "glacier white and pale blue palette, in-game screenshot from a third-person gameplay camera, bright even key, saturated primary vinyl surfaces, hard contact shadow, the horizon of tiger-stripe fissures venting geyser plumes over fresh snow going dark with an approaching swarm, defenders turning toward it, a slim curved warning arc across the top of the frame, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide shot with a low horizon, stillness before contact, punchy toy-catalogue grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Enceladus: tiger-stripe fissures venting plumes into space",
+"seed": 1186987336
+},
+"waveincoming_mars_inkline": {
+"beat": "waveincoming",
+"direction": "inkline",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.95,
+"place": "mars",
+"prompt": "rust red and dusty violet palette, in-game screenshot from a third-person gameplay camera, hard directional sun, heavy ink contour lines, printed halftone shadow, the horizon of a layered sediment canyon four kilometres deep with dust devils on the floor going dark with an approaching swarm, defenders turning toward it, a slim curved warning arc across the top of the frame, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide shot with a low horizon, stillness before contact, graphic high-contrast grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Valles Marineris: a canyon system four thousand kilometres long",
+"seed": 209609541
+},
+"waveincoming_ocean_elysian": {
+"beat": "waveincoming",
+"direction": "elysian",
+"lora": "k2_sunlit-painterly-anime.safetensors",
+"lora_strength": 0.6,
+"place": "ocean",
+"prompt": "turquoise and sand gold palette, in-game screenshot from a third-person gameplay camera, high afternoon sun, painterly cumulus, volumetric god rays, soft rim light, the horizon of a floating archipelago of green islands over a global ocean going dark with an approaching swarm, defenders turning toward it, a slim curved warning arc across the top of the frame, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide shot with a low horizon, stillness before contact, rich but grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A global-ocean world: land exists only as an archipelago",
+"seed": 652504085
+},
+"waveincoming_reddwarf_retroanime": {
+"beat": "waveincoming",
+"direction": "retroanime",
+"lora": "k2_official_retroanime.safetensors",
+"lora_strength": 0.65,
+"place": "reddwarf",
+"prompt": "deep crimson and umber palette, in-game screenshot from a third-person gameplay camera, flat cel light with hard shadow terminators, the horizon of low hardy scrub and wind-carved stone under permanent red light going dark with an approaching swarm, defenders turning toward it, a slim curved warning arc across the top of the frame, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide shot with a low horizon, stillness before contact, retro anime colour grade with slight print warmth, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A TRAPPIST-1 class world: dim red primary, permanent long shadows",
+"seed": 1324044597
+},
+"waveincoming_rogue_voidlight": {
+"beat": "waveincoming",
+"direction": "voidlight",
+"lora": "k2_glowing-ember-fantasy.safetensors",
+"lora_strength": 0.7,
+"place": "rogue",
+"prompt": "black and bioluminescent teal palette, in-game screenshot from a third-person gameplay camera, lit from below by glowing cyan crystal, bioluminescent rim light, the horizon of geothermal vents feeding glowing fungal forests in total darkness going dark with an approaching swarm, defenders turning toward it, a slim curved warning arc across the top of the frame, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide shot with a low horizon, stillness before contact, deep cool grade with protected highlights, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A rogue planet: no star at all, geothermal heat and life that glows",
+"seed": 1157401668
+},
+"waveincoming_terminator_cinematic": {
+"beat": "waveincoming",
+"direction": "cinematic",
+"lora": "k2_misty-anime-cinematic.safetensors",
+"lora_strength": 0.6,
+"place": "terminator",
+"prompt": "copper and deep blue palette split along a terminator line, in-game screenshot from a third-person gameplay camera, backlit mist, long lens compression, shallow depth of field, the horizon of an eternal sunset band between a scorched day side and an ice night side going dark with an approaching swarm, defenders turning toward it, a slim curved warning arc across the top of the frame, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide shot with a low horizon, stillness before contact, filmic grade with lifted blacks, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "A tidally locked world: all the weather lives on the day-night line",
+"seed": 1691822878
+},
+"waveincoming_titan_ashen": {
+"beat": "waveincoming",
+"direction": "ashen",
+"lora": "k2_bold-inked-anime-realism.safetensors",
+"lora_strength": 0.75,
+"place": "titan",
+"prompt": "amber and ochre palette under a sunless orange haze, in-game screenshot from a third-person gameplay camera, low overcast broken by one shaft of pale sun, heavy atmospheric haze, hard rim light, the horizon of dunes of dark hydrocarbon sand around flat mirror-still methane lakes going dark with an approaching swarm, defenders turning toward it, a slim curved warning arc across the top of the frame, blocky Roblox-style avatars with smooth rounded heads, cylindrical limbs and rectangular torsos, visible joint gaps, smooth flat-shaded primitive terrain, matte plastic and brushed metal, wide shot with a low horizon, stillness before contact, desaturated grounded grade, fine film grain, drifting dust, weathered edge wear, dirt settled in the crevices",
+"ref": "Titan: thick orange haze, hydrocarbon dunes and methane lakes",
+"seed": 118387625
+}
+}

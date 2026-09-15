@@ -1,0 +1,427 @@
+<title>WorldHeart Style Walk</title>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Single-theme on purpose: this is a game viewport, and the whole point is
+   that the scene's own light is the only light. Every colour is painted. */
+:root{
+  --ink:#0e0c0b; --panel:#17140f; --line:#2e2822; --fg:#efe9e0; --fg2:#a89e91;
+  --fg3:#6f665c; --amber:#e0913a;
+  --display:"Archivo",ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--ink);color:var(--fg);font:14px/1.5 var(--display);
+  overflow:hidden;-webkit-font-smoothing:antialiased}
+canvas{display:block}
+#app{position:fixed;inset:0}
+
+/* Per-style screen grade. This is what makes the three worlds feel different
+   beyond their geometry: a film-grain wash for the cel look, a hard vignette
+   and slight bloom for the inked one, a halftone dot screen for the printed
+   one. All of it is CSS over the canvas, so it costs the renderer nothing. */
+#grade{position:fixed;inset:0;pointer-events:none;mix-blend-mode:overlay;opacity:0}
+#grade.on{opacity:1}
+/* Grain was at .22 over `overlay`, which on a mid-tone frame is essentially
+   invisible -- the cel style's most recognisable surface quality was being
+   applied and then not shown. Stronger, and on soft-light so it grains the
+   highlights too. */
+body[data-style="retroanime"] #grade{
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4'/></filter><rect width='180' height='180' filter='url(%23n)' opacity='0.85'/></svg>");
+  background-size:180px 180px;opacity:.42;mix-blend-mode:soft-light}
+body[data-style="inkline"] #grade{
+  background-image:radial-gradient(circle at 1px 1px, rgba(0,0,0,.55) 1.1px, transparent 1.3px);
+  background-size:4px 4px;opacity:.5;mix-blend-mode:multiply}
+#vign{position:fixed;inset:0;pointer-events:none;
+  background:radial-gradient(ellipse at center, transparent 52%, rgba(0,0,0,.55) 100%)}
+
+/* ---- chrome ---- */
+.hud{position:fixed;pointer-events:none;font-family:var(--mono);font-size:11.5px;
+  color:var(--fg2);text-shadow:0 1px 3px rgba(0,0,0,.9)}
+#topleft{top:14px;left:16px;pointer-events:auto}
+#badge{display:inline-flex;align-items:center;gap:9px;background:rgba(14,12,11,.72);
+  border:1px solid var(--line);padding:7px 12px;border-radius:2px;backdrop-filter:blur(6px)}
+#badge b{font-family:var(--display);font-weight:600;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--fg);font-size:12px}
+#badge i{width:9px;height:9px;border-radius:50%;display:block}
+#switch{display:flex;gap:6px;margin-top:9px;pointer-events:auto}
+#switch button{font:inherit;font-size:11.5px;font-family:var(--mono);cursor:pointer;
+  background:rgba(14,12,11,.72);border:1px solid var(--line);color:var(--fg2);
+  padding:5px 10px;border-radius:2px;backdrop-filter:blur(6px)}
+#switch button:hover{color:var(--fg);border-color:#4a4036}
+#switch button[aria-pressed=true]{border-color:var(--amber);color:var(--fg);background:#2a231b}
+#keys{bottom:14px;left:16px}
+#keys kbd{font-family:var(--mono);background:rgba(255,255,255,.08);
+  border:1px solid var(--line);border-radius:2px;padding:1px 5px;margin:0 1px}
+#cross{position:fixed;left:50%;top:50%;width:3px;height:3px;margin:-1.5px 0 0 -1.5px;
+  border-radius:50%;background:rgba(255,255,255,.75);pointer-events:none;display:none}
+body.playing #cross{display:block}
+body.playing #keys{opacity:.45}
+
+/* ---- overlay ---- */
+#gate{position:fixed;inset:0;display:grid;place-items:center;background:rgba(10,8,7,.88);
+  backdrop-filter:blur(3px);cursor:pointer;z-index:5;text-align:center;padding:24px}
+#gate.hide{display:none}
+#gate h1{font-size:clamp(20px,4vw,34px);letter-spacing:.14em;text-transform:uppercase;
+  margin:0 0 8px;font-weight:600}
+#gate h1 span{color:var(--amber)}
+#gate p{color:var(--fg2);margin:0 0 4px;max-width:46ch}
+#gate .go{margin-top:20px;display:inline-block;border:1px solid var(--amber);color:var(--fg);
+  padding:10px 22px;border-radius:2px;font-family:var(--mono);font-size:13px}
+#bar{width:min(340px,70vw);height:2px;background:var(--line);margin:22px auto 0}
+#bar i{display:block;height:100%;width:0;background:var(--amber);transition:width .25s}
+#err{color:#e07a6a;font-family:var(--mono);font-size:12px;margin-top:14px;max-width:56ch}
+</style>
+
+<div id="app"></div>
+<div id="grade"></div>
+<div id="vign"></div>
+<div id="cross"></div>
+
+<div class="hud" id="topleft">
+  <div id="badge"><i></i><b>—</b></div>
+  <div id="switch">
+    <button data-s="retroanime">retroanime</button>
+    <button data-s="inkcel">inkcel</button>
+    <button data-s="inkline">inkline</button>
+  </div>
+</div>
+<div class="hud" id="keys">
+  <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> move &nbsp; <kbd>shift</kbd> sprint &nbsp;
+  <kbd>mouse</kbd> look &nbsp; <kbd>esc</kbd> release
+</div>
+
+<div id="gate">
+  <div>
+    <h1>WorldHeart <span>Style Walk</span></h1>
+    <p id="gsub">Three art directions, the same world. Walk each one and see how it feels.</p>
+    <div id="bar"><i></i></div>
+    <div class="go" id="golabel">loading…</div>
+    <div id="err"></div>
+  </div>
+</div>
+
+<script type="importmap">
+{"imports":{
+  "three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+}}
+</script>
+<script type="module">
+import * as THREE from 'three';
+import {PointerLockControls} from 'three/addons/controls/PointerLockControls.js';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+
+// Each style owns a sky, a SUN, a ground, a light rig, a line weight and a
+// toon ramp -- the same decisions the 2D catalogue makes (palette, light,
+// contour), so the walk reads as that art direction rather than a grey box.
+// Two things were wrong in the first pass and both are fixed here:
+//
+//  * fog started at 26m, which is nearer than the towers, so the whole scene
+//    dissolved into one flat wash of the fog colour before you could read
+//    anything. Fog now starts past the tableau and only softens the far scatter.
+//  * the toon ramp floored at 60/255, putting roughly two thirds of every
+//    surface into a 23%-brightness band. The models' baked colour was there the
+//    whole time and simply could not be seen. `ramp0` raises that floor.
+//
+// The sun is new. Every retroanime plate the owner picked had a huge low sun
+// doing all the work, and the 3D world had no sun at all -- that absence is
+// most of why it did not read as the style.
+const STYLES = {
+  retroanime:{
+    hue:'#d98ba6', sky:'#8c2f2a', sky2:'#f2a45a', ground:'#9c5238', rock:'#83402f',
+    fog:'#c86a46', fogNear:95, fogFar:290, outline:0,
+    sunDir:[0.10,0.085,-1], sunCol:'#ff4f38', sunDeg:11, halo:0.55,
+    // Lifted after looking at it: the orange hemisphere plus a dark ground
+    // bounce was swallowing the models' own paint, so retroanime read as a set
+    // of black silhouettes while inkcel showed its rust and cyan cleanly.
+    sunI:1.25, hemi:'#ffc79c', hemiG:'#8a4529', hemiI:1.25, amb:0.30,
+    toonSteps:3, ramp0:172, tint:'#ffe2d0', emissive:0.46,
+    note:'Soft painted cel. No contour — form is carried by flat colour and one hard shadow terminator, under a huge low sun.'},
+  inkcel:{
+    hue:'#f0e6d8', sky:'#2f5f9e', sky2:'#a8d6ec', ground:'#9a663f', rock:'#7a4d32',
+    fog:'#8fb4cc', fogNear:110, fogFar:330, outline:0.035,
+    sunDir:[-0.55,0.42,-1], sunCol:'#fff6de', sunDeg:2.2, halo:0.30,
+    sunI:1.45, hemi:'#cfe4f4', hemiG:'#53341f', hemiI:1.0, amb:0.18,
+    toonSteps:3, ramp0:160, tint:'#ffffff', emissive:0.30,
+    note:'Cel fills under a thick black contour of even weight, drawn with an inverted-hull pass on every mesh.'},
+  inkline:{
+    hue:'#e05a3c', sky:'#dbcdb2', sky2:'#f6efe2', ground:'#c85a3e', rock:'#a8442e',
+    fog:'#e8ddc8', fogNear:100, fogFar:280, outline:0.05,
+    sunDir:[0.45,0.30,-1], sunCol:'#ffe9c2', sunDeg:5, halo:0.0,
+    sunI:1.5, hemi:'#ffffff', hemiG:'#8a3a28', hemiI:.85, amb:0.22,
+    toonSteps:2, ramp0:175, tint:'#ffeede', emissive:0.26,
+    note:'Printed comic panel. Two-step toon ramp, heavier contour, and a benday halftone screen over the whole viewport.'}
+};
+const ASSETS = ['commander','enemy','tower'];
+
+const app=document.getElementById('app'), gate=document.getElementById('gate');
+const bar=document.querySelector('#bar i'), golabel=document.getElementById('golabel');
+const errEl=document.getElementById('err');
+
+const renderer=new THREE.WebGLRenderer({antialias:true,powerPreference:'high-performance'});
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+renderer.setSize(innerWidth,innerHeight);
+renderer.outputColorSpace=THREE.SRGBColorSpace;
+app.appendChild(renderer.domElement);
+
+const camera=new THREE.PerspectiveCamera(72,innerWidth/innerHeight,0.1,600);
+const controls=new PointerLockControls(camera,renderer.domElement);
+let scene=null, styleKey=null;
+
+// A 3-or-2 step gradient map is what turns a photoreal GLB material into a cel
+// one. Built once per step count rather than per material.
+const rampCache={};
+function ramp(steps,floor){
+  // `floor` is the darkest band. At 60 the shaded side of every object sat at
+  // 23% brightness and the baked texture colour was invisible; the models
+  // looked grey and unpainted when they were neither.
+  const k=steps+'|'+floor;
+  if(rampCache[k])return rampCache[k];
+  const d=new Uint8Array(steps);
+  for(let i=0;i<steps;i++) d[i]=Math.round(floor+((255-floor)*i)/(steps-1));
+  const t=new THREE.DataTexture(d,steps,1,THREE.RedFormat);
+  t.needsUpdate=true; t.minFilter=t.magFilter=THREE.NearestFilter;
+  rampCache[k]=t; return t;
+}
+
+function toonify(root,S){
+  // Collect FIRST, then mutate. The outline below adds a Mesh as a child of a
+  // Mesh, and doing that inside traverse() makes traverse walk the hull it just
+  // created, give the hull a hull, and recurse until the stack dies. Symptom
+  // was a scene that finished loading and then never appeared.
+  const meshes=[];
+  root.traverse(o=>{ if(o.isMesh) meshes.push(o); });
+  meshes.forEach(o=>{
+    const src=o.material;
+    const tex=src&&src.map?src.map:null;
+    // Meshy bakes the whole paint job into one base-colour texture. It must be
+    // read as sRGB or every colour comes back desaturated and dark.
+    if(tex) tex.colorSpace=THREE.SRGBColorSpace;
+    o.material=new THREE.MeshToonMaterial({
+      map:tex,
+      // The tint is a multiply, so it sits the model in the world's palette
+      // without discarding the paint underneath.
+      color:tex?new THREE.Color(S.tint):(src?src.color:0xcccccc),
+      // Feeding the same texture back as an emissive map keeps the SHADOWED
+      // side coloured instead of collapsing it to near-black. This is what
+      // "paint the colour on the models" actually needs: a toon ramp alone
+      // throws away hue everywhere the key light does not reach.
+      emissiveMap:tex,
+      emissive:new THREE.Color(S.emissive,S.emissive,S.emissive),
+      gradientMap:ramp(S.toonSteps,S.ramp0)
+    });
+    o.castShadow=o.receiveShadow=false;
+    // Inverted hull: the same mesh, pushed out along its normals, black, with
+    // only back faces drawn. Cheap, and the only outline that survives an
+    // arbitrary GLB without a post pass.
+    if(S.outline>0){
+      const hull=new THREE.Mesh(o.geometry,new THREE.MeshBasicMaterial({
+        color:0x0b0a09,side:THREE.BackSide}));
+      hull.scale.multiplyScalar(1+S.outline);
+      o.add(hull);
+    }
+  });
+}
+
+function skyDome(S){
+  // Gradient plus a real sun DISC. The disc is the style signature the first
+  // version was missing entirely: retroanime gets an enormous low red sun (the
+  // thing every plate the owner picked was built around), inkcel a small hard
+  // one high and to the left, inkline a flat pale one with no halo because a
+  // printed panel has no bloom.
+  const g=new THREE.SphereGeometry(400,48,24);
+  const m=new THREE.ShaderMaterial({side:THREE.BackSide,depthWrite:false,uniforms:{
+      a:{value:new THREE.Color(S.sky)},
+      b:{value:new THREE.Color(S.sky2)},
+      sc:{value:new THREE.Color(S.sunCol)},
+      sd:{value:new THREE.Vector3(...S.sunDir).normalize()},
+      ss:{value:Math.cos(S.sunDeg*Math.PI/180)},
+      ha:{value:S.halo}},
+    vertexShader:`varying vec3 vD;
+      void main(){ vD=normalize(position);
+        gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.); }`,
+    fragmentShader:`uniform vec3 a,b,sc,sd; uniform float ss,ha; varying vec3 vD;
+      void main(){
+        vec3 col=mix(b,a,clamp(vD.y*1.35+.28,0.,1.));
+        float d=dot(normalize(vD),normalize(sd));
+        col+=sc*pow(max(d,0.),42.)*ha;              // halo first, disc over it
+        col=mix(col,sc,smoothstep(ss-0.0015,ss+0.0015,d));
+        gl_FragColor=vec4(col,1.);
+      }`});
+  return new THREE.Mesh(g,m);
+}
+
+function buildScene(S){
+  const s=new THREE.Scene();
+  s.fog=new THREE.Fog(new THREE.Color(S.fog),S.fogNear,S.fogFar);
+  s.add(skyDome(S));
+  s.add(new THREE.HemisphereLight(new THREE.Color(S.hemi),new THREE.Color(S.hemiG),S.hemiI));
+  // The key light comes FROM the sun disc, so the shading in the scene agrees
+  // with the sky the player can see. Previously it was pinned to an arbitrary
+  // corner and the two contradicted each other.
+  const sd=new THREE.Vector3(...S.sunDir).normalize();
+  const sun=new THREE.DirectionalLight(new THREE.Color(S.sunCol),S.sunI);
+  sun.position.copy(sd.clone().multiplyScalar(120)); s.add(sun);
+  // A weak fill from the opposite side keeps the unlit half from going flat.
+  const fill=new THREE.DirectionalLight(new THREE.Color(S.hemi),0.35);
+  fill.position.copy(sd.clone().multiplyScalar(-90).setY(40)); s.add(fill);
+  // A flat ambient floor so no surface can fall below the level where its
+  // painted colour stops being readable. Without it the models turned into
+  // silhouettes wherever the key light did not reach.
+  s.add(new THREE.AmbientLight(0xffffff,S.amb||0.2));
+
+  const ground=new THREE.Mesh(new THREE.CircleGeometry(340,64),
+    new THREE.MeshToonMaterial({color:new THREE.Color(S.ground),
+      gradientMap:ramp(S.toonSteps,S.ramp0)}));
+  ground.rotation.x=-Math.PI/2; s.add(ground);
+
+  // Faceted scatter. Low-poly on purpose: it is the same geometry read the
+  // catalogue asks for, and it gives the contour something to bite on.
+  const rockMat=new THREE.MeshToonMaterial({color:new THREE.Color(S.rock),
+    gradientMap:ramp(S.toonSteps,S.ramp0),flatShading:true});
+  let seed=1337; const rnd=()=>((seed=seed*1664525+1013904223>>>0)/4294967296);
+  // Ring, not disc. The playable tableau lives inside r=30 (spawn at z=26,
+  // commander 18, towers ~0, swarm -24 to -45), and a disc scatter put a
+  // five-metre boulder directly on the spawn point -- you opened the world
+  // already inside a rock.
+  for(let i=0;i<90;i++){
+    const r=34+rnd()*130, a=rnd()*Math.PI*2, sc=.7+rnd()*4.2;
+    const rock=new THREE.Mesh(new THREE.IcosahedronGeometry(sc,0),rockMat);
+    rock.position.set(Math.cos(a)*r,sc*.35,Math.sin(a)*r);
+    rock.rotation.set(rnd()*3,rnd()*3,rnd()*3);
+    rock.scale.y=.5+rnd()*.8;
+    if(S.outline>0){
+      const h=new THREE.Mesh(rock.geometry,new THREE.MeshBasicMaterial({color:0x0b0a09,side:THREE.BackSide}));
+      h.scale.multiplyScalar(1+S.outline*.7); rock.add(h);
+    }
+    s.add(rock);
+  }
+  return s;
+}
+
+function fit(obj,targetHeight){
+  const box=new THREE.Box3().setFromObject(obj);
+  const size=new THREE.Vector3(); box.getSize(size);
+  const k=targetHeight/Math.max(size.y,1e-4);
+  obj.scale.multiplyScalar(k);
+  const b2=new THREE.Box3().setFromObject(obj);
+  obj.position.y-=b2.min.y;             // sit exactly on the ground
+  return obj;
+}
+
+const loader=new GLTFLoader();
+// Plain glTF JSON with its buffer and textures stored as data: URIs, served
+// under a .json extension (artifact hosting will not serve model/gltf-binary).
+//
+// NO BLOB ANYWHERE, deliberately. Given a GLB, three.js builds a `blob:` URL
+// for every embedded texture; where blob: is blocked the mesh still parses and
+// arrives completely UNPAINTED, which is exactly what was reported from a
+// second machine. data: URIs are resolved in place and never touch blob:.
+async function load(url){
+  return new Promise((res,rej)=>loader.load(url,g=>res(g.scene),undefined,
+    e=>rej(new Error((e&&e.message)||('failed to load '+url)))));
+}
+
+async function enter(key){
+  const S=STYLES[key]; styleKey=key;
+  document.body.dataset.style=key;
+  document.querySelector('#badge i').style.background=S.hue;
+  document.querySelector('#badge b').textContent=key;
+  document.querySelectorAll('#switch button').forEach(b=>
+    b.setAttribute('aria-pressed', b.dataset.s===key));
+  document.getElementById('gsub').textContent=S.note;
+  errEl.textContent='';
+
+  scene=buildScene(S);
+  scene.add(controls.getObject());
+  camera.position.set(0,1.7,26); controls.getObject().position.set(0,1.7,26);
+  camera.rotation.set(0,0,0);
+
+  let done=0; const total=ASSETS.length;
+  const got={};
+  for(const a of ASSETS){
+    try{
+      got[a]=await load(`models3d_gltf/${key}_${a}.json`);
+    }catch(e){
+      errEl.textContent='Could not load models3d_gltf/'+key+'_'+a+
+        '.json — '+(e.message||e)+'. Run fetch_models → shrink_glb → glb_to_gltf, '+
+        'and open this page over http (not file://).';
+    }
+    bar.style.width=(++done/total*100)+'%';
+  }
+
+  // Placement is a tower-defence tableau, not a showroom: the player spawns
+  // behind the commander, the towers hold the ridge, the swarm comes up the
+  // middle. You read the game from where you stand.
+  if(got.commander){
+    const c=fit(got.commander.clone(true),1.9); toonify(c,S);
+    c.position.set(0,c.position.y,18); c.rotation.y=Math.PI; scene.add(c);
+  }
+  if(got.tower){
+    [[-11,2],[0,-4],[12,1]].forEach(([x,z],i)=>{
+      const t=fit(got.tower.clone(true),i===1?4.6:3.8); toonify(t,S);
+      t.position.set(x,t.position.y,z); t.rotation.y=(i-1)*0.5; scene.add(t);
+    });
+  }
+  if(got.enemy){
+    for(let i=0;i<10;i++){
+      const e=fit(got.enemy.clone(true),1.1); toonify(e,S);
+      const a=(i/10)*Math.PI-Math.PI/2;
+      e.position.set(Math.sin(a)*(9+(i%3)*4),e.position.y,-24-(i%4)*7);
+      e.rotation.y=Math.PI+a*.4; scene.add(e);
+    }
+  }
+  golabel.textContent='click to walk';
+  document.getElementById('grade').classList.add('on');
+}
+
+// ---- movement ----
+const key={}, vel=new THREE.Vector3();
+addEventListener('keydown',e=>{key[e.code]=true; if(e.code==='Space')e.preventDefault();});
+addEventListener('keyup',e=>key[e.code]=false);
+gate.addEventListener('click',()=>{ if(scene) controls.lock(); });
+controls.addEventListener('lock',()=>{gate.classList.add('hide');document.body.classList.add('playing');});
+controls.addEventListener('unlock',()=>{gate.classList.remove('hide');document.body.classList.remove('playing');});
+document.querySelectorAll('#switch button').forEach(b=>b.addEventListener('click',ev=>{
+  ev.stopPropagation(); controls.unlock();
+  gate.classList.remove('hide'); bar.style.width='0%'; golabel.textContent='loading…';
+  const u=new URL(location); u.searchParams.set('style',b.dataset.s);
+  history.replaceState({},'',u); enter(b.dataset.s);
+}));
+
+let last=performance.now();
+renderer.setAnimationLoop(()=>{
+  const now=performance.now(), dt=Math.min((now-last)/1000,.1); last=now;
+  if(scene){
+    if(controls.isLocked){
+      const sp=(key.ShiftLeft||key.ShiftRight?15:6.5)*dt;
+      vel.set(0,0,0);
+      if(key.KeyW||key.ArrowUp)vel.z+=1;
+      if(key.KeyS||key.ArrowDown)vel.z-=1;
+      if(key.KeyA||key.ArrowLeft)vel.x-=1;
+      if(key.KeyD||key.ArrowRight)vel.x+=1;
+      if(vel.lengthSq()>0){
+        vel.normalize();
+        controls.moveForward(vel.z*sp); controls.moveRight(vel.x*sp);
+      }
+      const p=controls.getObject().position;
+      const d=Math.hypot(p.x,p.z);
+      if(d>170){p.x*=170/d;p.z*=170/d;}    // soft bound, no invisible wall
+      p.y=1.7;
+    }
+    renderer.render(scene,camera);
+  }
+});
+addEventListener('resize',()=>{
+  camera.aspect=innerWidth/innerHeight; camera.updateProjectionMatrix();
+  renderer.setSize(innerWidth,innerHeight);
+});
+
+const want=new URL(location).searchParams.get('style');
+enter(STYLES[want]?want:'inkcel');
+</script>
